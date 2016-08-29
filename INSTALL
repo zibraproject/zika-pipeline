@@ -1,0 +1,17 @@
+# Install dependencies
+
+pip install poretools
+brew install seqtk
+pip install pyvcf
+pip install pysam
+
+nanopolish
+samtools
+
+mkdir -p bin
+cd bin
+git clone https://github.com/jts/nanopolish.git
+cd nanopolish
+git submodule update --init --recursive
+make -j8
+

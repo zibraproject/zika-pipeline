@@ -6,27 +6,22 @@ import subprocess
 import csv
 from collections import defaultdict
 
-sets = {
-	'all'  : '../metadata/all_primers.txt',
-	'19rx' : '../metadata/19_rx.txt',
-	'11rx' : '../metadata/11_rx_v3.txt'
-}
-
-def read_bed_file(primerset):
-	sets = {
-		'all'  : '../metadata/all_primers.txt',
-	    '19rx' : '../metadata/19_rx.txt',
-	    '11rx' : '../metadata/11_rx_v3.txt'
-	}
-
+def read_bed_file(fn):
 	bedfile = []
-	with open(sets[primerset]) as csvfile:
-		reader = csv.DictReader(csvfile, dialect='excel-tab')
+        with open(fn) as csvfile:
+		reader = csv.reader(csvfile, dialect='excel-tab')
 		for row in reader:
-			row['direction'] = row['Primer_ID'].split("_")[1]
-			row['end'] = int(row['Coords']) + len(row["Sequence_(5-3')"])
-			row['start'] = int(row['Coords'])
-			bedfile.append(row)
+                        # ref start end primername
+                        bedrow = {}
+                        bedrow['Primer_ID'] = row[3]
+			bedrow['direction'] = row[5]
+                        if bedrow['direction'] == '+':
+		            bedrow['end'] = int(row[2])
+			    bedrow['start'] = int(row[1])
+                        else:
+                            bedrow['end'] = int(row[1])
+                            bedrow['start'] = int(row[2])
+			bedfile.append(bedrow)
 	return bedfile
 
 def overlaps(coords, pos):
