@@ -112,12 +112,12 @@ def go(args):
 
             try:
                 if s.reference_start < p1[2]['end']:
-                    trim(cigar, s, p1[2]['end'], 0)
+                    trim(cigar, s, p1[2]['end']-1, 0)
                 else:
                     continue
 
                 if s.reference_end > p2[2]['end']:
-                    trim(cigar, s, p2[2]['end'], 1)
+                    trim(cigar, s, p2[2]['end']-1, 1)
                 else:
                     continue
             except Exception, e:
