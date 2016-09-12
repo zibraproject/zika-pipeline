@@ -85,7 +85,7 @@ for record in vcf_reader:
 		qual = record.QUAL
 
 #		if support >= 0.75 and total_reads > 30:
-		if qual >= 200 and total_reads >= 50:
+		if qual >= 200 and total_reads >= 20:
 			REF = record.REF
 			ALT = str(record.ALT[0])
 

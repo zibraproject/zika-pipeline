@@ -85,6 +85,9 @@ def find_primer(bed, pos, direction):
 
 
 def go(args):
+    if args.report:
+        reportfh = open(args.report, "w")
+
     bed = read_bed_file(args.bedfile)
 
     counter = defaultdict(int)
@@ -106,7 +109,7 @@ def go(args):
             p1 = find_primer(bed, s.reference_start, '+')
             p2 = find_primer(bed, s.reference_end, '-')
 
-            print >>sys.stderr, "%s\t%s\t%s\t%s_%s\t%s\t%s\t%s\t%s\t%s\t%s" % (s.query_name, s.reference_start, s.reference_end, p1[2]['Primer_ID'], p2[2]['Primer_ID'], p1[2]['Primer_ID'], abs(p1[1]), p2[2]['Primer_ID'], abs(p2[1]), s.is_secondary, s.is_supplementary)
+            print >>reportfh, "%s\t%s\t%s\t%s_%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (s.query_name, s.reference_start, s.reference_end, p1[2]['Primer_ID'], p2[2]['Primer_ID'], p1[2]['Primer_ID'], abs(p1[1]), p2[2]['Primer_ID'], abs(p2[1]), s.is_secondary, s.is_supplementary, p1[2]['start'], p2[2]['end'])
 
             ## if the alignment starts before the end of the primer, trim to that position
 
@@ -132,8 +135,6 @@ def go(args):
                     continue
 
             ## if the alignment starts before the end of the primer, trim to that position
-
-#	try:
 #		trim(s, s.reference_start + 40, 0)
 #		trim(s, s.reference_end - 40, 1)
 #
@@ -143,12 +144,15 @@ def go(args):
 
             outfile.write(s)
 
+    reportfh.close()
+
 
 import argparse
 
 parser = argparse.ArgumentParser(description='Trim alignments from an amplicon scheme.')
 parser.add_argument('bedfile', help='BED file containing the amplicon scheme')
 parser.add_argument('--normalise', type=int, help='Subsample to n coverage')
+parser.add_argument('--report', type=str, help='Output report to file')
 
 args = parser.parse_args()
 go(args)
