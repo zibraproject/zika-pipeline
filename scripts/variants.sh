@@ -17,8 +17,12 @@ bwa index ../refs/Zika_FP.fasta
 bwa mem -xont2d ../refs/Zika_FP.fasta $sample.fasta | samtools view -bS - | samtools sort -o $sample.sorted.bam -
 samtools index $sample.sorted.bam
 
-align_trim.py --normalise 100 $amplicons --report $sample.alignreport.txt < $sample.sorted.bam 2> $sample.alignreport.er | samtools view -bS - | samtools sort -T $sample - -o $sample.trimmed.sorted.bam
+align_trim.py --start --normalise 100 $amplicons --report $sample.alignreport.txt < $sample.sorted.bam 2> $sample.alignreport.er | samtools view -bS - | samtools sort -T $sample - -o $sample.trimmed.sorted.bam
+
+align_trim.py --normalise 100 $amplicons --report $sample.alignreport.txt < $sample.sorted.bam 2> $sample.alignreport.er | samtools view -bS - | samtools sort -T $sample - -o $sample.primertrimmed.sorted.bam
+
 samtools index $sample.trimmed.sorted.bam
+samtools index $sample.primertrimmed.sorted.bam
 
 covplot.R $sample.alignreport.txt
 
