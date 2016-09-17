@@ -14,13 +14,8 @@ MASKED_POSITIONS = []
 reference = sys.argv[1]
 vcffile = sys.argv[2]
 bamfile = sys.argv[3]
-primerset = sys.argv[4]
 
 DEPTH_THRESHOLD = 20
-
-#bed = read_bed_file(primerset)
-#for primer in bed:
-#	MASKED_POSITIONS.extend([n for n in xrange(primer['start'], primer['end'])])
 
 def collect_depths(bamfile):
 	if not os.path.exists(bamfile):
@@ -83,12 +78,19 @@ for record in vcf_reader:
 		support = float(record.INFO['SupportFraction'][0])
 		total_reads = int(record.INFO['TotalReads'][0])
 		qual = record.QUAL
+        REF = record.REF
+        ALT = str(record.ALT[0])
+
+        if len(REF) > len(ALT):
+            print >>sys.stderr, "deletion"
+            continue
+
+        if len(ALT) > len(REF):
+            print >>sys.stderr, "insertion"
+            continue
 
 #		if support >= 0.75 and total_reads > 30:
-		if qual >= 200 and total_reads >= 20:
-			REF = record.REF
-			ALT = str(record.ALT[0])
-
+        if qual >= 200 and total_reads >= 20:
 			print >>sys.stderr, REF, ALT
 
 			report(record, "variant", ALT)
@@ -108,7 +110,7 @@ for record in vcf_reader:
 			#		cons[record.POS-1+n] = ''
 			#else:
 			cons[record.POS-1] = str(ALT)
-		else:
+        else:
 			report(record, "low_qual_variant", "n")
 			cons[record.POS-1] = 'N'
 			continue	
