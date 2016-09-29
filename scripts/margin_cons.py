@@ -90,7 +90,7 @@ for record in vcf_reader:
             continue
 
 #		if support >= 0.75 and total_reads > 30:
-        if qual >= 200 and total_reads >= 20:
+        if qual >= 200 and total_reads >= 20 and support > 0.75:
 			print >>sys.stderr, REF, ALT
 
 			report(record, "variant", ALT)

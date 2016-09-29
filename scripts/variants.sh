@@ -31,4 +31,6 @@ samtools index $sample.np.sorted.bam
 
 nanopolish variants --progress -t 16 --reads $sample.fasta -o $sample.vcf -b $sample.trimmed.sorted.bam -e $sample.np.sorted.bam -g ../refs/Zika_FP.fasta -vv -w "gi|631250742|gb|KJ776791.1|:0-11000" --snps --models-fofn ../models/nanopolish_models.fofn
 
+nanopolish variants --progress -t 16 --reads $sample.fasta -o $sample.primertrimmed.vcf -b $sample.primertrimmed.sorted.bam -e $sample.np.sorted.bam -g ../refs/Zika_FP.fasta -vv -w "gi|631250742|gb|KJ776791.1|:0-11000" --snps --models-fofn ../models/nanopolish_models.fofn
+
 

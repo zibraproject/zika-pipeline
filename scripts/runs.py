@@ -10,7 +10,7 @@ def get_runs_csv(fn):
 	lastrun = ''
 	for row in reader:
 		if row[11] != '':
-			lastrun = row[11]
+			lastrun, notes = row[11].split('\n')
 
 		if row[4] not in runs[lastrun]:
 			runs[lastrun][row[4]] = list()
@@ -21,8 +21,11 @@ def get_runs():
     runs = defaultdict(defaultdict)
     runsamples = json.load(open('runsamples.json'))
     for sample in runsamples['data']:
-        if not sample['sample_id'] in runs[sample['Run::run_name']]:
-            runs[sample['Run::run_name']][sample['sample_id']] = list()
+        cols = sample['Run::run_name'].split("\n")
+        run_name = cols[0]
 
-        runs[sample['Run::run_name']][sample['sample_id']].append(sample['barcode_id'])
+        if not sample['sample_id'] in runs[run_name]:
+            runs[run_name][sample['sample_id']] = list()
+
+        runs[run_name][sample['sample_id']].append(sample['barcode_id'])
     return runs
