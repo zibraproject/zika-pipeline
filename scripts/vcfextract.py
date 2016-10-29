@@ -42,6 +42,8 @@ for run, samples in runs.iteritems():
             if not os.path.exists(vcffn):
                 continue
 
+            print >>sys.stderr, vcffn
+
             vcf_reader = vcf.Reader(filename=vcffn)
             for record in vcf_reader:
                 if len(record.ALT[0]) == 1 and len(record.REF) == 1:

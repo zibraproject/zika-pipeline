@@ -41,11 +41,12 @@ for sample in runsamples['data']:
         print "No vcf for %s" % (fn,)
         continue
 
-    if sample['sample_id'] in processed:
+    if fn in processed:
         continue
-    processed[sample['sample_id']] = True
+    processed[fn] = True
 
     cmd = "margin_cons.py refs/Zika_FP.fasta %s/%s.vcf %s/%s.primertrimmed.sorted.bam" % (run_name, sample['sample_id'], run_name, sample['sample_id'])
+    print cmd
 
     p = subprocess.Popen([cmd], shell=True, stdout=subprocess.PIPE)
     out, err = p.communicate()

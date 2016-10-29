@@ -65,8 +65,9 @@ OrderedDefaultdict(list)
 #for directory in sys.argv[1:]:
 #	for barcode in ['NB%02d' % (i,) for i in xrange(1,13)]:
 
-for directory in sys.argv[1:]:
-	s = Stat(directory)
+runs = get_runs()
+for directory in runs.keys():
+	s = Stat('newdata/'+directory)
 	a = OrderedDefaultdict()
 	a['directory'] = directory
 	for k,v in s.hash().iteritems():

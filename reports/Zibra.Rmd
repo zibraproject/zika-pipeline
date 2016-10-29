@@ -18,12 +18,9 @@ library(ggtree)
 ```
 
 ```{r ct}
-samples=fromJSON('https://lims.microbesng.uk/RESTfm/ZiBRA/layout/Sample.json?RFMkey=7O5QG4ejt2HxwB98IJ0lx5w3PA60O3V9&RFMmax=0')$data
+samples=fromJSON('https://lims.microbesng.uk/RESTfm/ZiBRA/layout/Sample.json?RFMkey=u54PgAHTwZGTiwoLD3I8K239i8EPTSwr&RFMmax=0')$data
+runsamples=fromJSON('https://lims.microbesng.uk/RESTfm/ZiBRA/layout/RunSample.json?RFMkey=u54PgAHTwZGTiwoLD3I8K239i8EPTSwr&RFMmax=0')
 ggplot(samples, aes(x=as.integer(ct))) + geom_histogram() + theme_bw()
-```
-
-```{r municipality}
-ggplot(samples, aes(x=municipality)) + geom_bar(stat="count") + theme_bw() + theme(axis.text.x = element_text(angle=90, hjust=1))
 ```
 
 ```{r state}
@@ -33,26 +30,38 @@ ggplot(samples, aes(x=state)) + geom_bar(stat="count") + theme_bw() + theme(axis
 ## Run statistics
 
 ```{r runstats}
-runs=read.table("newdata/runstats.txt", header=T, sep="\t")
+runs=read.table("../../runstats.txt", header=T, sep="\t")
 kable(runs, caption='Run statistics')
+```
+
+## Sequenced samples
+
+```{r sequencedsamples}
+jointable=inner_join(samples, runsamples$data, "sample_id")
+sequencedsamples=unique(filter(select(jointable, sample_id, collection_date, lab, municipality, ct), sample_id!='ZBRANEG'))
+kable(sequencedsamples, caption=paste('Sequenced samples: ', nrow(sequencedsamples)))
+```
+
+```{r ctsequenced}
+ggplot(sequencedsamples, aes(x=as.integer(ct))) + geom_histogram()
 ```
 
 ## Genome statistics
 
 ```{r genomestats}
-genomes=read.table("genomestats.txt", header=T, sep="\t")
+genomes=read.table("../../genomestats.txt", header=T, sep="\t")
 kable(arrange(genomes, -perc), caption='Run statistics')
 ```
+
+```{r genomestatsbyrun}
+genomes=read.table("../../genomestats.txt", header=T, sep="\t")
+kable(arrange(genomes, -run), caption='Run statistics')
+```
+
 
 ### Histogram
 
 ```{r}
-ggplot(genomes, aes(x=perc)) + geom_histogram(binwidth=10) + xlim(0,100) + theme_bw()
+ggplot(genomes, aes(x=perc)) + geom_histogram(binwidth=10) + xlim(0,100) + theme_bw() + labs("Genome coverage of samples")
 ```
 
-### Tree
-
-```{r tree}
-tre=read.tree(file='rooted.tre')
-ggplot(tre, aes(x, y)) + geom_tree() + theme_tree() + geom_tiplab(size=3, color="red")
-```
