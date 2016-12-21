@@ -7,6 +7,7 @@ from pandas import DataFrame
 import collections
 from runs import get_runs
 from operator import attrgetter
+from Bio import SeqIO
 
 class OrderedDefaultdict(collections.OrderedDict):
     """ A defaultdict with OrderedDict as its base class. """
@@ -38,7 +39,7 @@ def shell(cmd):
     return out
 
 class Stat:
-    def __init__(self, sample):
+    def __init__(self, sample, reflen):
         cmd = "samtools view %s.sorted.bam | cut -f 1 | sort | uniq | wc -l" % (sample)
         self.reads = int(shell(cmd))
 
@@ -56,19 +57,22 @@ class Stat:
                            ('mapped', self.mapped),
                            ('basescovered', self.basescovered),
                            ('basescovered25x', self.basescovered25x),
-                           ('perc', "%.02d" % (100*self.basescovered25x/10807.0))])
+                           ('perc', "%.02d" % (100*self.basescovered25x/float(reflen)))])
+
+
+reflen = len(list(SeqIO.parse(open(sys.argv[1]), "fasta"))[0])
 
 table = []
 OrderedDefaultdict(list)
 
-#
-#for directory in sys.argv[1:]:
-#    for barcode in ['NB%02d' % (i,) for i in xrange(1,13)]:
+#runs = get_runs()
 
-runs = get_runs()
-for directory, samples in runs.iteritems():
-    for sample in samples.keys():
-        s = Stat("%s/%s" % (directory, sample))
+directory = '.'
+#for directory, samples in runs.iteritems():
+#    for sample in samples.keys():
+if True:
+    for sample in ['ZBRY5']:
+        s = Stat("%s/%s" % (directory, sample), reflen)
         a = OrderedDefaultdict()
         a['run'] = directory
         a['sample'] = sample

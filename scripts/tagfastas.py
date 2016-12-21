@@ -62,7 +62,7 @@ for sample in runsamples['data']:
 {u'pregnancy_week': u'', u'municipality': u'murici', u'patient_sex': u'male', u'host_species': u'human', u'lab_internal_sample_id': u'', u'sample_id': u'ZBRD103', u'minion_barcodes': u'', u'ct': u'29.09', u'lab_id_lacen': u'150101004197', u'collection_date': u'2015-08-20', u'amplicon_concentration_pool_1': u'', u'pregnancy_trimester': u'', u'sample_number': u'103', u'symptoms': u'', u'creation_persistent_id': u'9EDCA6E1F234B3A6E160D5E819D8918D', u'state': u'alagoas', u'extraction_date': u'2016-06-13', u'creation_host_timestamp': u'09/08/2016 21:06:44', u'rt_positive': u'1', u'patient_age': u'25', u'modification_account_name': u'Admin', u'modification_persistent_id': u'9EDCA6E1F234B3A6E160D5E819D8918D', u'lab': u'lacen_maceio', u'onset_date': u'2015-08-18', u'microcephaly': u'', u'sample_type': u'', u'creation_account_name': u'Admin', u'modification_host_timestamp': u'', u'country': u'brazil', u'notes': u'', u'pregnant': u''}
 """
 
-    rec.id = "%s|%s|%s|%s|%s" % (metadata['sample_id'], run_name, metadata['municipality'], metadata['state'], metadata['collection_date'])
+    rec.id = "%s|%s|%s|%s|%s|%s" % (metadata['lab_id_lacen'], metadata['sample_id'], run_name, metadata['municipality'], metadata['state'], metadata['collection_date'])
 
     if rec.seq.count('N') < 3000:
         SeqIO.write([rec], goodfh, "fasta")

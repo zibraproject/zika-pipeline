@@ -1,6 +1,8 @@
 ---
 title: "Zibra"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -51,6 +53,11 @@ ggplot(sequencedsamples, aes(x=as.integer(ct))) + geom_histogram()
 ```{r genomestats}
 genomes=read.table("../../genomestats.txt", header=T, sep="\t")
 kable(arrange(genomes, -perc), caption='Run statistics')
+```
+
+```{r covbyct}
+covct=inner_join(genomes, sequencedsamples, by = c('sample' = 'sample_id'))
+ggplot(subset(covct, basescovered25x > 2500), aes(x=as.numeric(ct), y=basescovered25x/10617)) + geom_point() + theme_bw() + xlab("Ct value") + ylab ("Genome coverage") + lims(y=c(0,1))
 ```
 
 ```{r genomestatsbyrun}

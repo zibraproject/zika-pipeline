@@ -27,7 +27,7 @@ samtools index $sample.primertrimmed.sorted.bam
 
 covplot.R $sample.alignreport.txt
 
-nanopolish eventalign -t 16 --models-fofn ../models/nanopolish_models.fofn --reads $sample.fasta -b $sample.trimmed.sorted.bam -g $ref --sam | samtools view -bS - | samtools sort -T $sample.tmp - -o $sample.np.sorted.bam
+nanopolish eventalign -vvvv -t 16 --models-fofn ../models/nanopolish_models.fofn --reads $sample.fasta -b $sample.trimmed.sorted.bam -g $ref --sam | samtools view -bS - | samtools sort -T $sample.tmp - -o $sample.np.sorted.bam
 samtools index $sample.np.sorted.bam
 
 nanopolish variants --progress -t 16 --reads $sample.fasta -o $sample.vcf -b $sample.trimmed.sorted.bam -e $sample.np.sorted.bam -g $ref -vv -w "`nanopolish_header.py $ref`" --snps --models-fofn ../models/nanopolish_models.fofn
