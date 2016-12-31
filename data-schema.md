@@ -2,7 +2,7 @@
 
 ## Nanopore reads
 
-Input data to the Zika pipeline arrives in the `data/` directory. This should be [mounted to `/data/`](https://github.com/zibraproject/zika-pipeline/blob/master/docker-notes.md#data) in the Docker container.
+Input data to the Zika pipeline arrives in the `data/` directory. This should be [mounted to `data/` in the Docker container](https://github.com/zibraproject/zika-pipeline/blob/master/docker-notes.md#data-volume).
 
   - `data`
     - `usvi-library1-2016-12-10` - library
