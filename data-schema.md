@@ -31,10 +31,10 @@ Sample metadata for the Zika pipeline arrives in the `samples/` directory. This 
 
 Must be `tsv` formatted. Keyed off of column headers rather than column order.
 
-strain  | sample_id | collection_date | country | region     | location
-------- | --------- | --------------- | ------- | ---------- | ---------
-ZBRD116 | ZBRD116   | 2015-08-28      | brazil  | alagoas    | arapiraca
-ZBRC301 | ZBRC301   | 2015-05-13      | brazil  | pernambuco | paulista
+sample_id | strain  | collection_date | country | region     | location
+--------- | ------- | --------------- | ------- | ---------- | ---------
+ZBRD116   | ZBRD116 | 2015-08-28      | brazil  | alagoas    | arapiraca
+ZBRC301   | ZBRC301 | 2015-05-13      | brazil  | pernambuco | paulista
 
 ### `runs.tsv`
 
