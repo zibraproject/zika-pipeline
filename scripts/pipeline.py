@@ -23,7 +23,7 @@ def sample_to_metadata_mapping(samples_dir):
     return dict
     each key is string "sample_id"
     each value is a list of metadata ordered as
-    ["strain", "sample_id", "collect_date", "country", "region", "location"]
+    ["strain", "sample_id", "collect_date", "country", "division", "location"]
     '''
     metadata_file = samples_dir + "samples.tsv"
     sm_mapping = {}
@@ -31,7 +31,7 @@ def sample_to_metadata_mapping(samples_dir):
         for row in csv.DictReader(tsv, delimiter="\t"):
             sample = row["sample_id"]
             metadata = [row["strain"], row["sample_id"], row["collection_date"],
-                row["country"], row["region"], row["location"]]
+                row["country"], row["division"], row["location"]]
             sm_mapping[sample] = metadata
     return sm_mapping
 
