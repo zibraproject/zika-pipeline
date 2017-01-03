@@ -104,6 +104,9 @@ def gather_consensus_fastas(sm_mapping, build_dir, prefix):
             partial_samples.append(sample)
         if coverage >= 0.8:
             good_samples.append(sample)
+    # sort samples
+    partial_samples.sort()
+    good_samples.sort()
     # concatenate partial samples
     print("Partial samples: " + " ".join(partial_samples))
     input_file_list = [build_dir + sample + ".consensus.fasta" for sample in partial_samples]
@@ -132,6 +135,6 @@ if __name__=="__main__":
 
     sr_mapping = sample_to_run_data_mapping(params.samples_dir)
     sm_mapping = sample_to_metadata_mapping(params.samples_dir)
-    construct_sample_fastas(sr_mapping, params.data_dir, params.build_dir)
-    process_sample_fastas(sm_mapping, params.build_dir)
+    #construct_sample_fastas(sr_mapping, params.data_dir, params.build_dir)
+    #process_sample_fastas(sm_mapping, params.build_dir)
     gather_consensus_fastas(sm_mapping, params.build_dir, params.prefix)
