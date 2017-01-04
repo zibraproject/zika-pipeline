@@ -5,8 +5,9 @@ ref=$1
 sample=$2
 amplicons=$3
 
-# 1) extract the 2d reads
-nanopolish extract --type 2d /data > $sample.fasta
+# Takes a $sample.fasta file full of nanopolish reads, ie
+# nanopolish extract --type 2d /data > $sample.fasta
+# Files are written to working directory
 
 # 2) copy the r9.4 model files into current directory
 cp -f /zibra/models/new_fast_template.5mers.model .
