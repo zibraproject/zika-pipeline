@@ -124,7 +124,7 @@ FEATURES             Location/Qualifiers
                      /product="NS2A"
      mat_peptide     4224..4613
                      /product="NS2B"
-     mat_peptide     4614..7004
+     mat_peptide     4614..6464
                      /product="NS3"
      mat_peptide     6465..6845
                      /product="NS4A"
