@@ -4,8 +4,8 @@ set -e
 schema=$1
 sample=$2
 
-ref=/zibra/zika-pipeline/${schema}/V1/${schema}.reference.fasta
-bed=/zibra/zika-pipeline/${schema}/V1/${schema}.scheme.bed
+ref=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.reference.fasta
+bed=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.scheme.bed
 
 # Takes a $sample.fasta file full of nanopolish reads, ie
 # nanopolish extract --type 2d /data > $sample.fasta
