@@ -3,6 +3,9 @@ set -e
 
 schema=$1
 sample=$2
+directory=$3
+
+nanopolish extract --type 2d ${directory} > ${sample}.fasta
 
 ref=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.reference.fasta
 bed=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.scheme.bed
@@ -37,5 +40,8 @@ samtools index $sample.np.sorted.bam
 nanopolish variants --progress -t 16 --reads $sample.fasta -o $sample.vcf -b $sample.trimmed.sorted.bam -e $sample.np.sorted.bam -g $ref -vv -w "`nanopolish_header.py $ref`" --snps --models-fofn new_models.fofn
 nanopolish variants --progress -t 16 --reads $sample.fasta -o $sample.primertrimmed.vcf -b $sample.primertrimmed.sorted.bam -e $sample.np.sorted.bam -g $ref -vv -w "`nanopolish_header.py $ref`" --snps --models-fofn new_models.fofn
 
-# 7) filter the variants and produce a consensus
+# 7) variant frequency plot
+vcfextract.py ${sample} > ${sampple}.variants.tab
+
+# 8) filter the variants and produce a consensus
 margin_cons.py $ref $sample.vcf $sample.trimmed.sorted.bam a > $sample.consensus.fasta

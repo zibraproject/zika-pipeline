@@ -26,6 +26,9 @@ RUN wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1
 # R9.4 models for nanopolish
 RUN mkdir models && cd models && wget http://s3.climb.ac.uk/nanopore/nanopolish_r94models.tar && tar xvf nanopolish_r94models.tar
 
+# Smith-Waterman library
+RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library.git && cd Complete-Striped-Smith-Waterman-Library/src && make
+
 # zibra pipeline
 RUN git clone https://github.com/zibraproject/zika-pipeline
 WORKDIR /zibra/zika-pipeline/
@@ -36,3 +39,6 @@ RUN git pull
 
 # environmental variables
 ENV PATH $PATH:/zibra/nanopolish:/zibra/bwa:/zibra/samtools-1.3.1:/zibra/zika-pipeline/scripts
+ENV PYTHONPATH /zibra/Complete-Striped-Smith-Waterman-Library/src
+ENV LD_LIBRARY_PATH /zibra/Complete-Striped-Smith-Waterman-Library/src
+
