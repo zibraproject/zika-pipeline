@@ -72,7 +72,7 @@ def nucl_align(sQSeq,sRSeq,query,target):
 # set flag
     nFlag = 0
     # This line should be the path to libssw.so but I can't get it to work.
-    ssw = ssw_lib.CSsw("")
+    ssw = ssw_lib.CSsw(".")
 
 
 # build query profile
