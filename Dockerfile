@@ -42,3 +42,6 @@ ENV PATH $PATH:/zibra/nanopolish:/zibra/bwa:/zibra/samtools-1.3.1:/zibra/zika-pi
 ENV PYTHONPATH /zibra/Complete-Striped-Smith-Waterman-Library/src
 ENV LD_LIBRARY_PATH /zibra/Complete-Striped-Smith-Waterman-Library/src
 
+# Add Python3 for snakemake and plot_coverage.py for illumina run
+RUN apt-get install python3 python3-pip
+RUN pip3 install snakemake
