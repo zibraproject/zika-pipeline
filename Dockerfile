@@ -35,11 +35,12 @@ RUN mkdir models && cd models && wget http://s3.climb.ac.uk/nanopore/nanopolish_
 RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library.git && cd Complete-Striped-Smith-Waterman-Library/src && make
 
 # zibra pipeline
-RUN git clone https://github.com/zibraproject/zika-pipeline
+# RUN git clone https://github.com/zibraproject/zika-pipeline
+RUN git clone https://github.com/gkarthik/zika-pipeline.git
 WORKDIR /zibra/zika-pipeline/
 
 # update
-ADD http://www.timeapi.org/utc/now /tmp/bustcache
+# ADD http://www.timeapi.org/utc/now /tmp/bustcache
 RUN git pull
 
 # environmental variables

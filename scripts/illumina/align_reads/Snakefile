@@ -41,7 +41,7 @@ rule align_reads:
         "{out_dir}/_tmp/"
     shell:
         "mkdir -p $(dirname {output}) $(dirname {input[3]}) &&"
-        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params[0]} -o {output}"
+        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params} -o {output}"
 
 rule trim_reads:
     input:
