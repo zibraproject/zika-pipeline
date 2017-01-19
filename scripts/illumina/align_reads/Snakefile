@@ -3,14 +3,14 @@ from datetime import datetime
 import time
 import re
 
-in_dir="../../illumina_data/" # Input directory
+in_dir="/illumina_data/" # Input directory
 ext="fastq.gz"
 gz = True if ".gz" in ext else False
-zika_reference="../../../refs/Zika_DC.fa" # Update ref to bwa ref
-primer_path="/gpfs/group/andersen/gkarthik/db/viruses/amplicons_prefix.fa"
+zika_reference="/zibra/zika-pipeline/scripts/illumina/db/zika_dc_2016.fa" # Update ref to bwa ref
+path_to_bed="/zibra/zika-pipeline/schemes/ZikaAsian/V1/ZikaAsian.scheme.bed"    # Path to BED file
 
 s = datetime.now().strftime("%Y.%m.%d."+str(int(time.time())))
-out_dir="/gpfs/group/andersen/gkarthik/analysis/"+s
+out_dir="/build/illumina_analysis/"+s
 
 # Rename from default MiSeq naming standard _S\d{1}_L\d{3}_R\d{1} to _R\d{1} for convenience
 SAMPLES = []
@@ -25,9 +25,6 @@ for dirname, dirnames, filenames in os.walk(in_dir):
                new_name2 = re.sub('_\d{3}', '', new_name2)
                os.rename(os.path.join(dirname,filenames[f+1]), os.path.join(dirname, new_name2))
                SAMPLES.append(new_name1.replace("."+ext, "").replace("_R1", ""))
-
-def get_read2(wildcards):
-     print(wildcards)
      
 rule all:
     input:
@@ -35,39 +32,25 @@ rule all:
         
 rule align_reads:
     input:
-        "{out_dir}/_trimmed/{sample}_R1.trimmed.fastq",
-        "{out_dir}/_trimmed/{sample}_R2.trimmed.fastq",
+        "{out_dir}/_reads/{sample}_R1.fastq",
+        "{out_dir}/_reads/{sample}_R2.fastq",
         "{ref}".format(ref = zika_reference)
     output:
-        "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.bam"
-    shell:
-        "mkdir -p $(dirname {output}) &&"
-        "module load samtools &&"
-        "/gpfs/home/gkarthik/bin/novoalign/novocraft3/novoalign -f {input[0]} {input[1]} -c 16 -r Random -l 40 -g 40 -x 20 -t 502 -d {input[2]} -o SAM | samtools view -F 4 -Sb -o {output}"
-
-rule sort_aligned_bam:
-    input:
-        "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.bam"
-    output:
-        "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam"
+        "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam",
+        "{out_dir}/_tmp/"
     shell:
         "mkdir -p $(dirname {output[0]}) &&"
-        "module load samtools &&"
-        "samtools sort -T $PBSTMPDIR -o {output} {input}"
+        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {output[1]} -o {output[0]}" # Change temp dir based on scheduling system.
 
 rule trim_reads:
     input:
-        read1="{out_dir}/_reads/{sample}_R1.fastq",
-        read2="{out_dir}/_reads/{sample}_R2.fastq",
-        primer="{primer}".format(primer=primer_path)
+        "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam",
+        "{bed}".format(bed = path_to_bed)
     output:
-        trim1="{out_dir}/_trimmed/{sample}_R1.trimmed.fastq",
-        trim2="{out_dir}/_trimmed/{sample}_R2.trimmed.fastq",
-        trim_unpaired1="{out_dir}/_trimmed/{sample}_R1.trimmed_unpaired.fastq",
-        trim_unpaired2="{out_dir}/_trimmed/{sample}_R2.trimmed_unpaired.fastq"
+        "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam",
+        "{out_dir}/_reports/{sample}.alignreport.txt"
     shell:
-        "mkdir -p $(dirname {output.trim1})/ && "
-        "java -Xmx2g -classpath /gpfs/home/gkarthik/bin/trimmomatic/trimmomatic-0.35.jar org.usadellab.trimmomatic.TrimmomaticPE -threads 16  {input.read1} {input.read2} {output.trim1} {output.trim_unpaired1} {output.trim2} {output.trim_unpaired2} ILLUMINACLIP:{input.primer}:2:30:12 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:25 MINLEN:30 HEADCROP:22"
+        "python align_trim.py {input[1]} --report {output[1]} | samtools view -F 4 -Sb - | samtools sort -T $PBSTMPDIR - -o {output[0]}"
 
 rule extract_read_1:
     input:

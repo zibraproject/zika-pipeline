@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 
 # Input directory
-in_dir="/gpfs/group/andersen/gkarthik/analysis/2016.10.28.1477686704.ZF/_merged_bams"
+in_dir="/build/illumina_analysis/timestamp/_merged_bams"
 out_dir=in_dir+"/_pileup"
 
 SAMPLES = []
@@ -24,7 +24,6 @@ rule get_pileup:
         "{out_dir}/{sample}.tsv"
     shell:
         "mkdir -p $(dirname {output}) && "
-        "module load samtools && "
         "samtools depth -d 1000000000 -a {input} > {output}"
 
 rule generate_statistics:
@@ -33,6 +32,5 @@ rule generate_statistics:
     output:
         "{out_dir}/statistics.md"
     shell:
-        "module load python/3.5.1 && "
         "a=$(dirname {output}) &&"
         "python3 ./plot_coverage.py $a/ $a/ > {output}"

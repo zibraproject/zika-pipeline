@@ -1,13 +1,11 @@
-# zika-pipeline
+#Analysis of Illumina Data
 
-Tools used
+###Data Volume
 
-* [Novoalign v3.04.04](http://www.novocraft.com/support/download/)
-* [Trimmomatic v0.36](http://www.usadellab.org/cms/index.php?page=trimmomatic)
-* [Samtools v1.3.1](http://www.htslib.org/download/)
-* [Snakemake v3.8.1](https://bitbucket.org/snakemake/snakemake/)
+Create a named data volume that mirrors local illumina data/ to data/ within container:
 
-Dependencies for plot_coverage.py
+       docker create --name illumina-data -v /path/to/local/illumina/data/data:/illumina_data zibra/zibra
 
-* [Pandas](http://pandas.pydata.org/)
-
+Modify align_reads/run_pipeline.sh and get_coverage/run_pipeline.sh to either execute snakemake on a single machine or using a scheduling system on a cluster.
+Run align_reads/run_pipeline.sh to create alignments. To generate alignment statistics for merged bam files run get_coverage/run_pipeline.sh.
+Output files are written to /build/illumina_analysis/ by default.
