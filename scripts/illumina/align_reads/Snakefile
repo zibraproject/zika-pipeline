@@ -38,10 +38,10 @@ rule align_reads:
     output:
         "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam"
     params:
-        "{out_dir}/_tmp/"
+        tmp="{out_dir}/_tmp/"
     shell:
         "mkdir -p $(dirname {output}) $(dirname {input[3]}) &&"
-        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params} -o {output}"
+        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params.tmp} -o {output}"
 
 rule trim_reads:
     input:
@@ -50,11 +50,11 @@ rule trim_reads:
     output:
         "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam"
     params:
-        "{out_dir}/_reports/{sample}.alignreport.txt",
-        "{out_dir}/_tmp/"    
+        rep="{out_dir}/_reports/{sample}.alignreport.txt",
+        tmp="{out_dir}/_tmp/"    
     shell:
         "mkdir -p $(dirname {input[3]}) &&"
-        "python align_trim.py {input[1]} --report {params[0]} < {input[0]} | samtools view -F 4 -Sb - | samtools sort -T {params[1]} - -o {output}"
+        "python align_trim.py {input[1]} --report {params.rep} < {input[0]} | samtools view -F 4 -Sb - | samtools sort -T {params.tmp} - -o {output}"
 
 rule extract_read_1:
     input:
