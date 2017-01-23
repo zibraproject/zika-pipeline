@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 
 # Input directory
-in_dir="/build/illumina_analysis/timestamp/_merged_bams"
+in_dir="/build/illumina_analysis/2017.01.23.1485213737/_aligned_bams"
 out_dir=in_dir+"/_pileup"
 
 SAMPLES = []

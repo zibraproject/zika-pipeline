@@ -14,3 +14,7 @@ ehthumbs.db
 Thumbs.db
 *~
 #*
+
+# Snakemake generated files #
+.snakemake/
+scripts/illumina/db/*fa.*
