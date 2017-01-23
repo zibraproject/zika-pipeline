@@ -38,7 +38,7 @@ rule align_reads:
     output:
         "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam"
     params:
-        "{out_dir}/_tmp/"
+        tmp="{out_dir}/_tmp/"
     shell:
         "mkdir -p $(dirname {output}) $(dirname {params}) &&"
         "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params} -o {output}"
@@ -50,8 +50,8 @@ rule trim_reads:
     output:
         "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam"
     params:
-        "{out_dir}/_reports/{sample}.alignreport.txt",
-        "{out_dir}/_tmp/"    
+        rep="{out_dir}/_reports/{sample}.alignreport.txt",
+        tmp="{out_dir}/_tmp/"    
     shell:
         "mkdir -p $(dirname {params[0]}) $(dirname {params[1]}) &&"
         "python /zibra/zika-pipeline/scripts/align_trim.py {input[1]} --report {params[0]} < {input[0]} | samtools view -F 4 -Sb - | samtools sort -T {params[1]} - -o {output}"
