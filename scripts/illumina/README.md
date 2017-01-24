@@ -2,7 +2,7 @@
 
 ###Data Volume
 
-Create a named data volume that mirrors local illumina data/ to data/ within container:
+Create a named data volume that mirrors the local .fastq.gz files generated to data/ within container:
 
        docker create --name illumina-data -v /path/to/local/illumina/data/data:/illumina_data zibra/zibra
 
