@@ -1,0 +1,36 @@
+import os
+from datetime import datetime
+import time
+
+# Input directory
+in_dir="/build/illumina_analysis/2017.01.23.1485213737/_aligned_bams"
+out_dir=in_dir+"/_pileup"
+
+SAMPLES = []
+for dirname, dirnames, filenames in os.walk(in_dir):
+     for f in filenames:
+          if '.bam' not in f: # Specify conditions on filenames
+               continue
+          SAMPLES.append(f.replace(".bam", ""))
+
+rule all:
+    input:
+        "{out_dir}/statistics.md".format(out_dir = out_dir)
+
+rule get_pileup:
+    input:
+        "{in_dir}".format(in_dir = in_dir) + "/{sample}.bam"
+    output:
+        "{out_dir}/{sample}.tsv"
+    shell:
+        "mkdir -p $(dirname {output}) && "
+        "samtools depth -d 1000000000 -a {input} > {output}"
+
+rule generate_statistics:
+    input:
+        "{out_dir}/{sample}.tsv".format(out_dir = out_dir, sample = s) for s in SAMPLES
+    output:
+        "{out_dir}/statistics.md"
+    shell:
+        "a=$(dirname {output}) &&"
+        "python3 ./plot_coverage.py $a/ $a/ > {output}"

@@ -10,6 +10,11 @@ RUN apt-get install -y git build-essential wget zlib1g-dev vim libncurses5-dev
 RUN apt-get install -y python python-pip
 RUN pip install pysam pyvcf biopython
 
+# Add Python3 for snakemake and plot_coverage.py for illumina run
+RUN apt-get install -y python3 python3-pip
+RUN pip3 install snakemake
+RUN pip3 install pandas
+
 # create working directory
 RUN mkdir /zibra
 WORKDIR /zibra/
@@ -41,4 +46,3 @@ RUN git pull
 ENV PATH $PATH:/zibra/nanopolish:/zibra/bwa:/zibra/samtools-1.3.1:/zibra/zika-pipeline/scripts
 ENV PYTHONPATH /zibra/Complete-Striped-Smith-Waterman-Library/src
 ENV LD_LIBRARY_PATH /zibra/Complete-Striped-Smith-Waterman-Library/src
-

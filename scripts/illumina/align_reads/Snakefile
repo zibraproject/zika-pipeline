@@ -1,0 +1,75 @@
+import os
+from datetime import datetime
+import time
+import re
+
+in_dir="/illumina_data/" # Input directory
+ext="fastq.gz"
+gz = True if ".gz" in ext else False
+zika_reference="/zibra/zika-pipeline/scripts/illumina/db/zika_dc_2016.fa" # Update ref to bwa ref
+path_to_bed="/zibra/zika-pipeline/schemes/ZikaAsian/V1/ZikaAsian.scheme.bed"    # Path to BED file
+
+s = datetime.now().strftime("%Y.%m.%d."+str(int(time.time())))
+out_dir="/build/illumina_analysis/"+s
+
+# Rename from default MiSeq naming standard _S\d{1}_L\d{3}_R\d{1} to _R\d{1} for convenience
+SAMPLES = []
+for dirname, dirnames, filenames in os.walk(in_dir):
+     filenames.sort()
+     for f in range(0, len(filenames)-1, 2):
+          if ext in filenames[f] and ext in filenames[f+1]:
+               new_name1 = re.sub('_S\d{1}_L\d{3}_R', '_R', filenames[f])
+               new_name1 = re.sub('_\d{3}', '', new_name1)
+               os.rename(os.path.join(dirname,filenames[f]), os.path.join(dirname, new_name1))
+               new_name2 = re.sub('_S\d{1}_L\d{3}_R', '_R', filenames[f+1])
+               new_name2 = re.sub('_\d{3}', '', new_name2)
+               os.rename(os.path.join(dirname,filenames[f+1]), os.path.join(dirname, new_name2))
+               SAMPLES.append(new_name1.replace("."+ext, "").replace("_R1", ""))
+     
+rule all:
+    input:
+        expand("{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam", out_dir = out_dir, sample = SAMPLES)
+        
+rule align_reads:
+    input:
+        "{out_dir}/_reads/{sample}_R1.fastq",
+        "{out_dir}/_reads/{sample}_R2.fastq",
+        "{ref}".format(ref = zika_reference)
+    output:
+        "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam"
+    params:
+        tmp="{out_dir}/_tmp/"
+    shell:
+        "mkdir -p $(dirname {output}) $(dirname {params}) &&"
+        "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params} -o {output}"
+
+rule trim_reads:
+    input:
+        "{out_dir}/_aligned_bams/{sample}.aligned.sorted.bam",
+        "{bed}".format(bed = path_to_bed)
+    output:
+        "{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam"
+    params:
+        rep="{out_dir}/_reports/{sample}.alignreport.txt",
+        tmp="{out_dir}/_tmp/"    
+    shell:
+        "mkdir -p $(dirname {params[0]}) $(dirname {params[1]}) &&"
+        "python /zibra/zika-pipeline/scripts/align_trim.py {input[1]} --report {params[0]} < {input[0]} | samtools view -F 4 -Sb - | samtools sort -T {params[1]} - -o {output}"
+
+rule extract_read_1:
+    input:
+        "{in_dir}".format(in_dir = in_dir)+"/{sample}_R1.fastq.gz"
+    output:
+        "{out_dir}/_reads/{sample}_R1.fastq"
+    shell:
+        "mkdir -p $(dirname {output})/ &&"
+        'if [[ {input} == *.gz ]]; then gunzip -c {input} > {output}; else cp {input} {output};fi;'
+
+rule extract_read_2:
+    input:
+        "{in_dir}".format(in_dir = in_dir)+"/{sample}_R2.fastq.gz"
+    output:
+        "{out_dir}/_reads/{sample}_R2.fastq"
+    shell:
+        "mkdir -p $(dirname {output})/ &&"
+        'if [[ {input} == *.gz ]]; then gunzip -c {input} > {output}; else cp {input} {output}; fi'
