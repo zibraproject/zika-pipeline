@@ -6,6 +6,12 @@ from copy import copy
 from vcftagprimersites import read_bed_file
 from collections import defaultdict
 
+def check_still_matching_bases(s):
+    for flag, length in s.cigartuples:
+        if flag == 0:
+            return True
+    return False
+
 def trim(cigar, s, start_pos, end):
     if not end:
         pos = s.pos
@@ -165,6 +171,9 @@ def go(args):
 #      outfile.write(s)
 #   except Exception:
 #      pass
+
+        if not check_still_matching_bases(s):
+             continue
 
         outfile.write(s)
 
