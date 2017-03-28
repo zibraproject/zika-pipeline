@@ -72,7 +72,7 @@ for sample_tag in sys.argv[1:]:
 
 			if pos in vcffile:
 				info = vcffile[pos].INFO
-				print "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s" % (pos, vcfset, sample_tag, variant_type, depth, info['SupportFraction'][0], info['BaseCalledFrequency'][0], info['SupportingReads'][0])
+				print "%s\t%s\t%s\t%s\t%s\t%s\t%s" % (pos, vcfset, sample_tag, variant_type, depth, info['SupportFraction'][0], info['BaseCalledFrequency'][0])
 			else:
 				print "%s\t%s\t%s\tinvariant\t%s\t0\t0\t0" % (pos, vcfset, sample_tag, depth)
 
