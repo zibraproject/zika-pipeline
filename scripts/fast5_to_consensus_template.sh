@@ -5,7 +5,8 @@ schema=$1
 sample=$2
 directory=$3
 
-nanopolish extract --type template ${directory} > ${sample}.fasta
+#nanopolish extract -r --type template ${directory} > ${sample}.fasta
+poretools fasta --type fwd --basecaller "ONT Albacore Sequencing Software=1.0.4" ${directory} > ${sample}.fasta
 
 ref=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.reference.fasta
 bed=/zibra/zika-pipeline/schemes/${schema}/V1/${schema}.scheme.bed
