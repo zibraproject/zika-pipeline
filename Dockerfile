@@ -37,6 +37,9 @@ RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
 # Porechop
 RUN git clone https://github.com/rrwick/Porechop.git && cd Porechop && python3 setup.py install
 
+# Poretools
+RUN pip install git+https://github.com/arq5x/poretools.git@basecaller-choice
+
 # zibra pipeline
 RUN git clone https://github.com/zibraproject/zika-pipeline
 WORKDIR /zibra/zika-pipeline/

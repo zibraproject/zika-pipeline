@@ -48,7 +48,7 @@ for sample_tag in sys.argv[1:]:
 				positions[record.POS] = 'indel'
 
 
-print "pos\tset\tsample\tvartype\tdepth\tsupportfraction\tbasecalledfrequency\tsuppportingreads"
+print "pos\tset\tsample\tvartype\tdepth\tsupportfraction\tbasecalledfrequency"
 
 #for run, samples in runs.iteritems():
 #	for sample_tag in samples.keys():
@@ -74,5 +74,5 @@ for sample_tag in sys.argv[1:]:
 				info = vcffile[pos].INFO
 				print "%s\t%s\t%s\t%s\t%s\t%s\t%s" % (pos, vcfset, sample_tag, variant_type, depth, info['SupportFraction'][0], info['BaseCalledFrequency'][0])
 			else:
-				print "%s\t%s\t%s\tinvariant\t%s\t0\t0\t0" % (pos, vcfset, sample_tag, depth)
+				print "%s\t%s\t%s\tinvariant\t%s\t0\t0" % (pos, vcfset, sample_tag, depth)
 
