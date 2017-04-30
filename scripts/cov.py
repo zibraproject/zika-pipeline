@@ -65,13 +65,10 @@ reflen = len(list(SeqIO.parse(open(sys.argv[1]), "fasta"))[0])
 table = []
 OrderedDefaultdict(list)
 
-#runs = get_runs()
-
+runs = get_runs()
 directory = '.'
-#for directory, samples in runs.iteritems():
-#    for sample in samples.keys():
-if True:
-    for sample in ['ZBRY5']:
+for directory, samples in runs.iteritems():
+    for sample in samples.keys():
         s = Stat("%s/%s" % (directory, sample), reflen)
         a = OrderedDefaultdict()
         a['run'] = directory
