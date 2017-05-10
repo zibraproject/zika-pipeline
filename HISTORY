@@ -1,0 +1,13 @@
+
+v0.4:
+ * Update nanopolish to latest HEAD - aaaf90beb4efe37243c651e62fcfd11374fe2176 for Albacore 1 support
+ * Initial support for Yellow Fever (500 and 1000 bp schemes)
+  * Move to poretools for extraction with named basecaller
+
+v0.3:
+ * add Porechop
+
+v0.2:
+ * update nanopolish to 0.6 - adds default support for various nanopore models
+ * update samtools to 1.4
+

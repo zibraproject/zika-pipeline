@@ -34,11 +34,14 @@ RUN apt-get install -y libbz2-dev liblzma-dev && wget https://github.com/samtool
 # Smith-Waterman library
 RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library.git && cd Complete-Striped-Smith-Waterman-Library/src && make
 
-# Porechop
-RUN git clone https://github.com/rrwick/Porechop.git && cd Porechop && python3 setup.py install
-
 # Poretools
 RUN pip install git+https://github.com/arq5x/poretools.git@basecaller-choice
+
+# cache bust
+RUN wget https://www.timeanddate.com/ -O /tmp/cachebust
+
+# porechop branch
+RUN pip3 install git+https://github.com/zibraproject/Porechop.git
 
 # zibra pipeline
 RUN git clone https://github.com/zibraproject/zika-pipeline
