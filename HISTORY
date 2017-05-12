@@ -1,7 +1,7 @@
 
 v0.5:
  * Update nanopolish to latest HEAD - to fix Albacore 1.1 support
- * Add Ebola and Lassa virus schemees
+ * Add Lassa virus scheme
 
 v0.4:
  * Update nanopolish to latest HEAD - aaaf90beb4efe37243c651e62fcfd11374fe2176 for Albacore 1 support
