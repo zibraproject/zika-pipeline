@@ -1,6 +1,8 @@
+v0.6:
+ * Update poretools
 
 v0.5:
- * Update nanopolish to latest HEAD - to fix Albacore 1.1 support
+ * Update nanopolish to latest HEAD - to fix Albacore 1.1 support (7de633d01cc35a58e5537af5dd1024ae0040d15c)
  * Add Lassa virus scheme
 
 v0.4:
