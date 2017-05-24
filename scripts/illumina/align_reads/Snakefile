@@ -2,30 +2,34 @@ import os
 from datetime import datetime
 import time
 import re
+import shutil
 
-in_dir="/illumina_data/" # Input directory
+shell.executable("/bin/bash")
+shell.prefix("source ~/.bashrc; ")
+
+in_dir="illumina_data/" # Input directory
 ext="fastq.gz"
 gz = True if ".gz" in ext else False
 zika_reference="/zibra/zika-pipeline/scripts/illumina/db/zika_dc_2016.fa" # Update ref to bwa ref
-path_to_bed="/zibra/zika-pipeline/schemes/ZikaAsian/V1/ZikaAsian.scheme.bed"    # Path to BED file
+scheme=config.get('scheme')
+path_to_bed="/zibra/zika-pipeline/schemes/" + scheme + "/V1/" + scheme + ".scheme.bed"    # Path to BED file
 
 s = datetime.now().strftime("%Y.%m.%d."+str(int(time.time())))
-out_dir="/build/illumina_analysis/"+s
+out_dir="illumina_analysis/"+s
 
 # Rename from default MiSeq naming standard _S\d{1}_L\d{3}_R\d{1} to _R\d{1} for convenience
-SAMPLES = []
-for dirname, dirnames, filenames in os.walk(in_dir):
-     filenames.sort()
-     for f in range(0, len(filenames)-1, 2):
-          if ext in filenames[f] and ext in filenames[f+1]:
-               new_name1 = re.sub('_S\d{1}_L\d{3}_R', '_R', filenames[f])
-               new_name1 = re.sub('_\d{3}', '', new_name1)
-               os.rename(os.path.join(dirname,filenames[f]), os.path.join(dirname, new_name1))
-               new_name2 = re.sub('_S\d{1}_L\d{3}_R', '_R', filenames[f+1])
-               new_name2 = re.sub('_\d{3}', '', new_name2)
-               os.rename(os.path.join(dirname,filenames[f+1]), os.path.join(dirname, new_name2))
-               SAMPLES.append(new_name1.replace("."+ext, "").replace("_R1", ""))
-     
+sample=config.get('sample')
+fq1=config.get('fq1')
+fq2=config.get('fq2')
+
+originals = "%s/originals" % (in_dir)
+if not os.path.exists(originals):
+    os.makedirs(originals)
+shutil.copy(fq1, "%s/originals/%s_1.fastq.gz" % (in_dir, sample))
+shutil.copy(fq2, "%s/originals/%s_2.fastq.gz" % (in_dir, sample))
+
+SAMPLES=[sample]
+
 rule all:
     input:
         expand("{out_dir}/_aligned_bams/{sample}.trimmed.aligned.sorted.bam", out_dir = out_dir, sample = SAMPLES)
@@ -40,7 +44,8 @@ rule align_reads:
     params:
         tmp="{out_dir}/_tmp/"
     shell:
-        "mkdir -p $(dirname {output}) $(dirname {params}) &&"
+        "mkdir -p $(dirname {output}) &&"
+        "mkdir -p {params} &&"
         "bwa mem {input[2]} {input[0]} {input[1]} | samtools view -F 4 -Sb | samtools sort -T {params} -o {output}"
 
 rule trim_reads:
@@ -53,12 +58,13 @@ rule trim_reads:
         rep="{out_dir}/_reports/{sample}.alignreport.txt",
         tmp="{out_dir}/_tmp/"    
     shell:
-        "mkdir -p $(dirname {params[0]}) $(dirname {params[1]}) &&"
+        "mkdir -p $(dirname {params[0]}) &&"
+        "mkdir -p {params[1]} &&"
         "python /zibra/zika-pipeline/scripts/align_trim.py {input[1]} --report {params[0]} < {input[0]} | samtools view -F 4 -Sb - | samtools sort -T {params[1]} - -o {output}"
 
 rule extract_read_1:
     input:
-        "{in_dir}".format(in_dir = in_dir)+"/{sample}_R1.fastq.gz"
+        "{in_dir}".format(in_dir = in_dir)+"/originals/{sample}_R1.fastq.gz"
     output:
         "{out_dir}/_reads/{sample}_R1.fastq"
     shell:
@@ -67,9 +73,10 @@ rule extract_read_1:
 
 rule extract_read_2:
     input:
-        "{in_dir}".format(in_dir = in_dir)+"/{sample}_R2.fastq.gz"
+        "{in_dir}".format(in_dir = in_dir)+"/originals/{sample}_R2.fastq.gz"
     output:
         "{out_dir}/_reads/{sample}_R2.fastq"
     shell:
         "mkdir -p $(dirname {output})/ &&"
         'if [[ {input} == *.gz ]]; then gunzip -c {input} > {output}; else cp {input} {output}; fi'
+
