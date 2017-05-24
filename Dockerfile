@@ -23,7 +23,9 @@ WORKDIR /zibra/
 ADD HISTORY /zibra/HISTORY
 
 # nanopolish
-RUN git clone --recursive https://github.com/jts/nanopolish.git && cd nanopolish && git checkout 7de633d01cc35a58e5537af5dd1024ae0040d15c && make -j8
+RUN git clone --recursive https://github.com/jts/nanopolish.git && cd nanopolish && make -j4
+# && git checkout 7de633d01cc35a58e5537af5dd1024ae0040d15c && make -j8
+
 
 # BWA
 RUN git clone --recursive https://github.com/lh3/bwa && cd bwa && make -j8
