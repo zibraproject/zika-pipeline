@@ -1,3 +1,6 @@
+v0.8:
+ * Track latest Porechop with better adaptor trimming
+
 v0.7:
  * Add Illumina wrapper scripts
 
