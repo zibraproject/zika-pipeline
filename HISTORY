@@ -1,3 +1,6 @@
+v0.9:
+ * New command line interface zibra.py to ease extraction and demultiplexing with Albacore and multiple groups
+
 v0.8:
  * Track latest Porechop with better adaptor trimming
 

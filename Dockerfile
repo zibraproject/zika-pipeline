@@ -38,9 +38,6 @@ RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
 # Poretools
 RUN pip install git+https://github.com/arq5x/poretools.git@basecaller-choice
 
-# cache bust
-RUN wget https://www.timeanddate.com/ -O /tmp/cachebust
-
 # porechop branch
 RUN pip3 install git+https://github.com/zibraproject/Porechop.git
 
