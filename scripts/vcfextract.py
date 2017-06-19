@@ -7,7 +7,6 @@ import csv
 import os
 from collections import defaultdict
 from operator import attrgetter
-from runs import get_runs
 
 def read_vcf(fn):
 	vcfinfo = {}
@@ -31,7 +30,6 @@ def collect_depths(bamfile):
 
 positions = {}
 
-#runs = get_runs()
 for sample_tag in sys.argv[1:]:
 	for vcfset in ['', '.primertrimmed']:
 		vcffn = "%s%s.vcf" % (sample_tag, vcfset)
