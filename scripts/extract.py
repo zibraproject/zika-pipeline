@@ -12,7 +12,6 @@ def run(parser, args):
 	i = 0
 
 	for fast5 in Fast5FileSet(args.directory, None, args.basecaller):
-		#, 0, basecaller):
 		if not fast5.is_open:
 			print >>sys.stderr, "Skipping read: %s" % (fast5.filename)
 			continue

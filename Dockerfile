@@ -8,19 +8,15 @@ RUN apt-get install -y git build-essential wget zlib1g-dev vim libncurses5-dev
 
 # python and python dependencies
 RUN apt-get install -y python python-pip
-RUN pip install pysam pyvcf biopython
+RUN pip install pysam pyvcf biopython clint
 
 # Add Python3 for snakemake and plot_coverage.py for illumina run
 RUN apt-get install -y python3 python3-pip
-RUN pip3 install snakemake
-RUN pip3 install pandas
+RUN pip3 install snakemake pandas
 
 # create working directory
 RUN mkdir /zibra
 WORKDIR /zibra/
-
-# version - cache bust
-ADD HISTORY /zibra/HISTORY
 
 # nanopolish
 RUN git clone --recursive https://github.com/jts/nanopolish.git && cd nanopolish && make -j4
@@ -40,6 +36,9 @@ RUN pip install git+https://github.com/arq5x/poretools.git@basecaller-choice
 
 # porechop branch
 RUN pip3 install git+https://github.com/zibraproject/Porechop.git
+
+# version - cache bust
+ADD HISTORY /zibra/HISTORY
 
 # zibra pipeline
 RUN git clone https://github.com/zibraproject/zika-pipeline

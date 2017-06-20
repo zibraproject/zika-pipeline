@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+>&2 echo "For more documentation on the bioinformatics pipeline, see <http://zibra.readthedocs.io/en/latest/>"
+
+schema=$1
+sample=$2
+directory=$3
+
+zibra.py extract $directory "ONT Albacore Sequencing Software" > $sample.fasta
+zibra.py minion $schema $sample

@@ -1,6 +1,7 @@
-import sys
+#!/usr/bin/env python
 
-# Thanks to Aaron Quinlan for the argparse implementation from poretools.
+#Written by Nick Loman (@pathogenomenick)
+#Thanks to Aaron Quinlan for the argparse implementation from poretools.
 
 import sys
 import md5
@@ -17,6 +18,8 @@ def run_subtool(parser, args):
 		import basecaller as submodule
 	if args.command == 'demultiplex':
 		import demultiplex as submodule
+	if args.command == 'minion':
+		import minion as submodule
 
 	# run the chosen submodule.
 	submodule.run(parser, args)
@@ -55,6 +58,14 @@ def main():
 	parser_demultiplex.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_demultiplex.add_argument('--prefix', help='Prefix for demultiplexed files')
 	parser_demultiplex.set_defaults(func=run_subtool)
+
+	# minion
+	parser_minion = subparsers.add_parser('minion', help='Run demultiplex')
+	parser_minion.add_argument('scheme', metavar='scheme', help='The name of the scheme.')
+	parser_minion.add_argument('sample', metavar='sample', help='The name of the sample.')
+	parser_minion.add_argument('--threads', type=int, default=8, help='Number of threads')
+	parser_minion.add_argument('--scheme-directory', metavar='scheme_directory', default='/zibra/zika-pipeline/schemes', help='Default scheme directory')
+	parser_minion.set_defaults(func=run_subtool)
 
 	# import
 	"""parser_import = subparsers.add_parser('import',
