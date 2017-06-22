@@ -14,6 +14,9 @@ def get_nanopolish_header(ref):
 	return  "%s:%d-%d" % (recs[0].id, 1, len(recs[0])+1)
 
 def run(parser, args):
+	log = "%s.minion.log.txt" % (args.sample)
+	logfh = open(log, 'w')
+
 	ref = "%s/%s/V1/%s.reference.fasta" % (args.scheme_directory, args.scheme, args.scheme)
 	bed = "%s/%s/V1/%s.scheme.bed" % (args.scheme_directory, args.scheme, args.scheme)
 
@@ -54,11 +57,17 @@ def run(parser, args):
 	cmds.append("vcfextract.py %s > %s.variants.tab" % (args.sample, args.sample))
 
 	# 8) filter the variants and produce a consensus
-	cmds.append("margin_cons.py %s %s.vcf %s.trimmed.sorted.bam a > %s.consensus.fasta" % (ref, args.sample, args.sample, args.sample))
+	# here we use the vcf file without primer binding site trimming (to keep nanopolish happy with flanks)
+	# but we use the primertrimmed sorted bam file in order that primer binding sites do not count
+	# for the depth calculation to determine any low coverage sites that need masking
+	cmds.append("margin_cons.py %s %s.vcf %s.primertrimmed.sorted.bam a > %s.consensus.fasta" % (ref, args.sample, args.sample, args.sample))
 
 	for cmd in cmds:
 		print >>sys.stderr, colored.green("Running: ") + cmd
+		print >>logfh, cmd
 		retval = os.system(cmd)
 		if retval != 0:
 			print >>sys.stderr, colored.red('Command failed:' ) + cmd
+
+	logfh.close()
 
