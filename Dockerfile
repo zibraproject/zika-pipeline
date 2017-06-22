@@ -19,7 +19,7 @@ RUN mkdir /zibra
 WORKDIR /zibra/
 
 # nanopolish
-RUN git clone --recursive https://github.com/jts/nanopolish.git && cd nanopolish && make -j4
+RUN git clone --recursive https://github.com/zibraproject/nanopolish.git && cd nanopolish && make -j4
 # && git checkout 7de633d01cc35a58e5537af5dd1024ae0040d15c && make -j8
 
 # BWA
