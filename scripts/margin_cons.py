@@ -39,7 +39,8 @@ def report(r, status, allele):
     idfile = os.path.basename(vcffile).split(".")[0]
     print >>sys.stderr, "%s\t%s\tstatus\t%s" % (idfile, r.POS, status)
     print >>sys.stderr, "%s\t%s\tdepth\t%s" % (idfile, r.POS, record.INFO.get('TotalReads', ['n/a']))
-    print >>sys.stderr, "%s\t%s\tfrac\t%s" % (idfile, r.POS, record.INFO.get('BaseCalledFraction', ['n/a']))
+    print >>sys.stderr, "%s\t%s\tbasecalledfrac\t%s" % (idfile, r.POS, record.INFO.get('BaseCalledFraction', ['n/a']))
+    print >>sys.stderr, "%s\t%s\tsupportfrac\t%s" % (idfile, r.POS, record.INFO.get('SupportFraction', ['n/a']))
     print >>sys.stderr, "%s\t%s\tallele\t%s" % (idfile, r.POS, allele)
     print >>sys.stderr, "%s\t%s\tref\t%s" % (idfile, r.POS, record.REF)
 
@@ -75,8 +76,8 @@ for record in vcf_reader:
             cons[record.POS-1] = 'N'
             continue
 
-        support = float(record.INFO['SupportFraction'][0])
-        total_reads = int(record.INFO['TotalReads'][0])
+        support = float(record.INFO['SupportFraction'])
+        total_reads = int(record.INFO['TotalReads'])
         qual = record.QUAL
 
         REF = record.REF
