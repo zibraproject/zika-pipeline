@@ -14,7 +14,7 @@ def read_bed_file(fn):
 			bedrow = {}
 			bedrow['Primer_ID'] = row[3]
 			
-			if len(row) == 6:
+			if len(row) >= 6:
 				# new style bed
 				bedrow['direction'] = row[5]
 			elif len(row) == 5:
