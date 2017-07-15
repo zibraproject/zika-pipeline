@@ -45,8 +45,8 @@ def run(parser, args):
 	#covplot.R $sample.alignreport.txt
 
 	# 6) do variant calling using the raw signal alignment
-	cmds.append("nanopolish variants --progress -t %s --reads %s.fasta -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
-	cmds.append("nanopolish variants --progress -t %s --reads %s.fasta -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
+	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s.fasta -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.max_haplotypes, args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
+	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s.fasta -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.max_haplotypes, args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
 
 	#python nanopore-scripts/expand-cigar.py --bam "$sample".primertrimmed.sorted.bam --fasta $ref | python nanopore-scripts/count-errors.py /dev/stdin > "$sample".errors.txt
 
