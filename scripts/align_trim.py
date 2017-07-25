@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+#Written by Nick Loman
+#Part of the ZiBRA pipeline (zibraproject.org)
+
 import pysam
 import sys
 from copy import copy
