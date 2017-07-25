@@ -31,7 +31,7 @@ RUN git clone https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
 RUN pip install git+https://github.com/arq5x/poretools.git@basecaller-choice
 
 # porechop branch
-RUN pip3 install git+https://github.com/zibraproject/Porechop.git
+RUN pip3 install git+https://github.com/rrwick/Porechop.git
 
 # version - cache bust
 ADD HISTORY /zibra/HISTORY
