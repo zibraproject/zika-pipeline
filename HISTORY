@@ -1,3 +1,10 @@
+v0.11 (25th July 2017):
+ * Revert back to Ryan Wick's porechop repo as --untrimmed now implemented
+ * New script: align_trim_fasta.py and reconstitute.py as basis for more
+   principled demultiplexing (align first, then trim to known amplicon end
+   points +/- 40 bases) to help prevent chimeric reads resulting in 
+   incorrect barcode identification
+
 v0.10 (15th July 2017):
  * Better handling of confident deletions (previously ignored, now N-masked)
  * Update to nanopolish HEAD
