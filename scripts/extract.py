@@ -10,8 +10,16 @@ def run(parser, args):
 	flowcells = set()
 	reads = set()
 	i = 0
+	basecaller_version = None
 
 	for fast5 in Fast5FileSet(args.directory, None, args.basecaller):
+#		if not basecaller_version:
+#			basecaller_version = fast5.get_basecaller_version()
+#		elif fast5.get_basecaller_version() != basecaller_version:
+#			print >>sys.stderr, "ABORTED: More than one basecaller version found: %s, %s" % (basecaller_version, fast5.get_basecaller_version())
+#			raise SystemExit
+				
+
 		if not fast5.is_open:
 			print >>sys.stderr, "Skipping read: %s" % (fast5.filename)
 			continue
@@ -20,6 +28,7 @@ def run(parser, args):
 		flowcells.add(read_flowcell_id)
 		if len(flowcells) != 1:
 			print >>sys.stderr, "ABORTED: More than one flowcell found in dataset: %s" % (flowcells,)
+			raise SystemExit
 
 		#if flowcell_id != read_flowcell_id:
 		#	print >>sys.stderr, "Skipping read from flowcell: %s" % (read_flowcell_id)
