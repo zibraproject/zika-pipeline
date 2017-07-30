@@ -5,12 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Welcome to Zibra Pipeline’s documentation! &#8212; Zibra Pipeline  documentation</title>
-    
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <title>The ZiBRA Pipeline &#8212; Zibra Pipeline  documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,34 +22,101 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-   
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-
+    <link rel="search" title="Search" href="search.html" /> 
   </head>
   <body>
-  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Zibra Pipeline  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="welcome-to-zibra-pipeline-s-documentation">
-<h1>Welcome to Zibra Pipeline’s documentation!<a class="headerlink" href="#welcome-to-zibra-pipeline-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+  <div class="section" id="the-zibra-pipeline">
+<span id="the-zibra-pipeline"></span><h1>The ZiBRA Pipeline<a class="headerlink" href="#the-zibra-pipeline" title="Permalink to this headline">¶</a></h1>
+<p>During the Zika project we have developed a fully integrated sequencing pipeline which is described in our paper at Nature Protocols.</p>
+<p>This page describes in more detail the bioinformatics pipeline from that paper.</p>
+<div class="section" id="installing-docker">
+<span id="installing-docker"></span><h2>Installing Docker<a class="headerlink" href="#installing-docker" title="Permalink to this headline">¶</a></h2>
+<p>For Linux:</p>
+<p>https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04</p>
+<p>For Windows:</p>
+<p>Ideally Docker for Windows:</p>
+<p>https://docs.docker.com/docker-for-windows/</p>
+<p>Some users may need to use Docker Toolbox:</p>
+<p>https://docs.docker.com/toolbox/toolbox_install_windows/</p>
+<p>For Mac:</p>
+<p>https://docs.docker.com/docker-for-mac/</p>
+</div>
+<div class="section" id="quick-start">
+<span id="quick-start"></span><h2>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="minion-pipeline">
+<span id="minion-pipeline"></span><h3>MinION pipeline<a class="headerlink" href="#minion-pipeline" title="Permalink to this headline">¶</a></h3>
+<p>docker pull zibra/zibra:latest
+docker run -t -i zibra/zibra:latest /bin/bash</p>
 </div>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="run-on-the-test-sample">
+<span id="run-on-the-test-sample"></span><h2>run on the test sample<a class="headerlink" href="#run-on-the-test-sample" title="Permalink to this headline">¶</a></h2>
+<p>mkdir whoref
+cd whoref
+wget https://s3.climb.ac.uk/nanopore/Zika_Control_Material_R9.4_2D.tar
+tar xvf Zika_Control_Material_R9.4_2D.tar
+fast5_to_consensus.sh ZikaAsian WHO 20161118_Zika/downloads/pass/NB08</p>
+<div class="section" id="local-offline-basecalling">
+<span id="local-offline-basecalling"></span><h3>Local offline basecalling<a class="headerlink" href="#local-offline-basecalling" title="Permalink to this headline">¶</a></h3>
+<p>Currently we are recommending Oxford Nanopore’s Albacore for local base calling. If basecalling offline on Windows or Mac, we recommend this is done on the native operating system rather than in the Docker container, for reasons of speed.</p>
+<p>We also do not recommend using Albacore demultiplexing at present, as this is rather lenient as it requires only a single barcode copy.</p>
+<p>To basecall an R9.4 1D dataset on Windows with eight threads use, if the reads are stored in <code class="docutils literal"><span class="pre">C:\data\reads\run</span></code> and you want the basecals to save to <code class="docutils literal"><span class="pre">C:\Users\nick\data\run</span></code> then run::</p>
+<p><code class="docutils literal"><span class="pre">read_fast5_basecaller.py</span> <span class="pre">--input</span> <span class="pre">C:\data\reads\run</span> <span class="pre">--worker_threads</span> <span class="pre">8</span> <span class="pre">-c</span> <span class="pre">r94_450bps_linear.cfg</span> <span class="pre">-s</span> <span class="pre">C:\Users\nick\data\run</span> <span class="pre">-r</span> <span class="pre">-o</span> <span class="pre">fast5</span></code></p>
+</div>
+<div class="section" id="demultiplexing">
+<span id="demultiplexing"></span><h3>Demultiplexing<a class="headerlink" href="#demultiplexing" title="Permalink to this headline">¶</a></h3>
+<p>Currently we prefer Ryan Wick’s porechop, but a special version of is bundled with the Docker file used to make it compatible with nanopolish.</p>
+<p>To demultiplex from /data/run, do something like (for reads stored in /data/run):</p>
+<p>poretools fasta /data/run &gt; run.fasta
+porechop --untrimmed -i run.fasta -b porechop-run --barcode_threshold 75 --threads 16 --check_reads 1000 --barcode_diff 2 —require_two_barcodes</p>
+</div>
+<div class="section" id="mounting-a-local-directory">
+<span id="mounting-a-local-directory"></span><h3>Mounting a local directory<a class="headerlink" href="#mounting-a-local-directory" title="Permalink to this headline">¶</a></h3>
+<p>You will probably want to mount a local directory where your reads are kept.</p>
+<p>On Windows, say my data is in <code class="docutils literal"><span class="pre">C:\Users\nick\data</span></code> you would run:</p>
+<p>docker run -t -v //C/Users/nick/data:/data -i zibra/zibra:latest /bin/bash</p>
+<p>On Mac:</p>
+<p>docker run -t -v /Users/nick/data:/data -i zibra/zibra:latest /bin/bash</p>
+<p>Then use Porechop (in the container) to demultiplex the reads:</p>
+</div>
+<div class="section" id="illumina-pipeline-quickstart">
+<span id="illumina-pipeline-quickstart"></span><h3>Illumina pipeline- Quickstart<a class="headerlink" href="#illumina-pipeline-quickstart" title="Permalink to this headline">¶</a></h3>
+<p>docker pull zibra/zibra:latest
+docker run -t -i zibra/zibra:latest /bin/bashwget --no-check-certificate
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR512/007/SRR5122847/SRR5122847_1.fastq.gz
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR512/007/SRR5122847/SRR5122847_2.fastq.gz
+illumina_pipeline.sh SRR5122847 SRR5122847_1.fastq.gz SRR5122847_2.fastq.gz ZikaAsian</p>
+</div>
+</div>
+<div class="section" id="credits">
+<span id="credits"></span><h2>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a></h2>
+<p>The ZiBRA Pipeline was developed with contributions from:</p>
 <ul class="simple">
-<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
-<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
-<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+<li>Nick Loman (MinION pipeline)</li>
+<li>Jared Simpson (nanopolish SNP calling)</li>
+<li>Matt Loose (nanopore demultiplexing script)</li>
+<li>Karthik Gangavarapu (Illumina pipeline)</li>
+<li>Nate Grubaugh (Illumina pipeline)</li>
+<li>Kristian Andersen (Illumina pipeline)</li>
+<li>Trevor Bedford (help with Docker and useful fixes)</li>
 </ul>
+<p>It relies on a whole heap of open source software, thank you to all contributors.</p>
+</div>
 </div>
 
 
@@ -63,20 +127,28 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Welcome to Zibra Pipeline’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#">The ZiBRA Pipeline</a><ul>
+<li><a class="reference internal" href="#installing-docker">Installing Docker</a></li>
+<li><a class="reference internal" href="#quick-start">Quick start</a><ul>
+<li><a class="reference internal" href="#minion-pipeline">MinION pipeline</a></li>
 </ul>
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="#">Documentation overview</a><ul>
-  </ul></li>
+</li>
+<li><a class="reference internal" href="#run-on-the-test-sample">run on the test sample</a><ul>
+<li><a class="reference internal" href="#local-offline-basecalling">Local offline basecalling</a></li>
+<li><a class="reference internal" href="#demultiplexing">Demultiplexing</a></li>
+<li><a class="reference internal" href="#mounting-a-local-directory">Mounting a local directory</a></li>
+<li><a class="reference internal" href="#illumina-pipeline-quickstart">Illumina pipeline- Quickstart</a></li>
 </ul>
-</div>
+</li>
+<li><a class="reference internal" href="#credits">Credits</a></li>
+</ul>
+</li>
+</ul>
+
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/index.rst.txt"
+      <li><a href="_sources/index.md.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -94,20 +166,18 @@
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="footer">
-      &copy;2017, Nick Loman and the ZiBRA Project Consortium.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.1</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="#">Zibra Pipeline  documentation</a> &#187;</li> 
+      </ul>
     </div>
-
-    
-
-    
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Nick Loman and the ZiBRA Project Consortium.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
   </body>
 </html>

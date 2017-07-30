@@ -12,7 +12,7 @@ import shutil
 def run(parser, args):
 	tmpdir = tempfile.mkdtemp(dir='.')
 
-	cmd = ("porechop --untrimmed -i \"%s\" -b %s --barcode_threshold 75 --threads %s --check_reads 1000 --barcode_diff 2 --require_two_barcodes" % (args.fasta, tmpdir, args.threads))
+	cmd = ("porechop --verbosity 2 --untrimmed -i \"%s\" -b %s --barcode_threshold 80 --threads %s --check_reads 10000 --barcode_diff 5 --require_two_barcodes > %s.demultiplexreport.txt" % (args.fasta, tmpdir, args.threads, args.fasta))
 	print >>sys.stderr, cmd
 	os.system(cmd)
 
@@ -25,5 +25,6 @@ def run(parser, args):
 
 		os.system("gunzip -f %s" % (newfn,))
 
-	os.rmdir(tmpdir)
+	if not args.no_remove_directory:
+		os.rmdir(tmpdir)
 

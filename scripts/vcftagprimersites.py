@@ -8,19 +8,31 @@ from collections import defaultdict
 
 def read_bed_file(fn):
 	bedfile = []
-        with open(fn) as csvfile:
+	with open(fn) as csvfile:
 		reader = csv.reader(csvfile, dialect='excel-tab')
 		for row in reader:
-                        # ref start end primername
-                        bedrow = {}
-                        bedrow['Primer_ID'] = row[3]
-			bedrow['direction'] = row[5]
-                        if bedrow['direction'] == '+':
-		            bedrow['end'] = int(row[2])
-			    bedrow['start'] = int(row[1])
-                        else:
-                            bedrow['end'] = int(row[1])
-                            bedrow['start'] = int(row[2])
+			bedrow = {}
+			bedrow['Primer_ID'] = row[3]
+			
+			if len(row) >= 6:
+				# new style bed
+				bedrow['direction'] = row[5]
+			elif len(row) == 5:
+				# old style without directory
+				if 'LEFT' in row[3]:
+					bedrow['direction'] = '+'
+				elif 'RIGHT' in row[3]:
+					bedrow['direction'] = '-'
+				else:
+					print >>sys.stderr, "Malformed BED file!" 
+					raise SystemExit
+
+			if bedrow['direction'] == '+':
+				bedrow['end'] = int(row[2])
+				bedrow['start'] = int(row[1])
+			else:
+				bedrow['end'] = int(row[1])
+				bedrow['start'] = int(row[2])
 			bedfile.append(bedrow)
 	return bedfile
 

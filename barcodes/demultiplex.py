@@ -28,6 +28,7 @@ def align_seq(seq,args):
         resultdict[match]=dict()
         resultdict[match]["score"]=score
 
+    print resultdict
 
     results = sorted([(resultdict[x]["score"],x,resultdict[x]) for x in resultdict.keys()])[::-1]
     #for result in results:

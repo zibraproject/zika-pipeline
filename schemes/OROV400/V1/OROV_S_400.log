@@ -1,0 +1,2815 @@
+Stepping right, position 60, limit none
+Stepping right, position 80, limit none
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTACT-5'
+2.0
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|765204911|gb|KP026181.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|765204911|gb|KP026181.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|747156931|gb|KP052852.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|747156931|gb|KP052852.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140097|gb|AY704568.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140097|gb|AY704568.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140094|gb|AY704567.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140094|gb|AY704567.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140091|gb|AY704566.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140091|gb|AY704566.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140085|gb|AY704564.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140085|gb|AY704564.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140082|gb|AY704563.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140082|gb|AY704563.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140076|gb|AY704561.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|52140076|gb|AY704561.1|                        3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|52140070|gb|AY704559.1|                        3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|52140070|gb|AY704559.1|                        3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*|||||||||||||||||||||||||*||
+gi|460111587|gb|KC759130.1|                       3'-AAGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|460111587|gb|KC759130.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |**|||||||||||||||||||||||||||
+gi|460111573|gb|KC759127.1|                       3'-AAATTATTACAGTCTCAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|460111573|gb|KC759127.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|460111558|gb|KC759124.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|460111558|gb|KC759124.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|66862226|gb|AY117135.3|                        3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|66862226|gb|AY117135.3|                        3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||||||                
+gi|923093009|gb|KP795104.1|                       3'-AGGTTATTACAGTC-----------------5'
+0.933333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                                     ||||||||||
+gi|923093009|gb|KP795104.1|                       3'-----------------CGAATTAACC-5'
+0.769230769231
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*||||||||||||||||||||||||||||
+gi|923093003|gb|KP795098.1|                       3'-AAGTTATTACAGTCTCAAGTAAAAGTTACT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|923093003|gb|KP795098.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*||||||||||||||||*|||||||||||
+gi|923093000|gb|KP795095.1|                       3'-AAGTTATTACAGTCTCAAATAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|923093000|gb|KP795095.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*||||||||||||||||||||||||||||
+gi|923092997|gb|KP795092.1|                       3'-AAGTTATTACAGTCTCAAGTAAAAGTTACT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-G-CCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     | ||||||||||||||||*||||||||
+gi|923092997|gb|KP795092.1|                       3'-CGGGGATTTGAGTCGAACAAATTAACC-5'
+1.74074074074
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |**|||||||||||||||||||||||||||
+gi|923092994|gb|KP795089.1|                       3'-AAATTATTACAGTCTCAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|923092994|gb|KP795089.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|923092991|gb|KP795086.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|923092991|gb|KP795086.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|923092988|gb|KP795083.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|923092988|gb|KP795083.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*|||||||||||||||||||||||||*||
+gi|923092982|gb|KP795077.1|                       3'-AAGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|923092982|gb|KP795077.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |*||||||||||||||||||||||||||||
+gi|923092979|gb|KP795074.1|                       3'-AAGTTATTACAGTCTCAAGTAAAAGTTACT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|923092979|gb|KP795074.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7328985|gb|AF164531.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|7328985|gb|AF164531.1|                         3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329066|gb|AF164558.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|7329066|gb|AF164558.1|                         3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329060|gb|AF164556.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|7329060|gb|AF164556.1|                         3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329057|gb|AF164555.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|7329057|gb|AF164555.1|                         3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*||||||||||
+gi|7329054|gb|AF164554.1|                         3'--------TACAGTCTCAAGAAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329054|gb|AF164554.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329051|gb|AF164553.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329051|gb|AF164553.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||*|||||||||||
+gi|7329048|gb|AF164552.1|                         3'--------TACAGTCTCAAATAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|7329048|gb|AF164552.1|                         3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|7329045|gb|AF164551.1|                         3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329045|gb|AF164551.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||*|||||||||||
+gi|7329042|gb|AF164550.1|                         3'--------TACAGTCTCAAATAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|7329042|gb|AF164550.1|                         3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|7329039|gb|AF164549.1|                         3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329039|gb|AF164549.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||**|||||||||||||||*||
+gi|7329036|gb|AF164548.1|                         3'--------TACGTTCTCAAGTAAAAGTTGCT-5'
+1.23333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329036|gb|AF164548.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329033|gb|AF164547.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329033|gb|AF164547.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329030|gb|AF164546.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329030|gb|AF164546.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329027|gb|AF164545.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329027|gb|AF164545.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||**||
+gi|7329024|gb|AF164544.1|                         3'--------TACAGTCTCAAGTAAAAGTCGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329024|gb|AF164544.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||*|||||||||||||||||
+gi|7329021|gb|AF164543.1|                         3'--------TACAGCCTCAAGTAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329021|gb|AF164543.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||*||||||||||||||
+gi|7329018|gb|AF164542.1|                         3'--------TACAGTCTTAAGTAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|7329018|gb|AF164542.1|                         3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||**||
+gi|7329015|gb|AF164541.1|                         3'--------TACAGTCTCAAGTAAAAGTCGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329015|gb|AF164541.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329009|gb|AF164539.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329009|gb|AF164539.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329006|gb|AF164538.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329006|gb|AF164538.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||*||||||||||||||*||
+gi|7329003|gb|AF164537.1|                         3'--------TACAGCCTCAAGTAAAAGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7329003|gb|AF164537.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7329000|gb|AF164536.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||||||||||||||*||||||||
+gi|7329000|gb|AF164536.1|                         3'-CGAGATTTGAGTCGAACAAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7328997|gb|AF164535.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|7328997|gb|AF164535.1|                         3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7328994|gb|AF164534.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|7328994|gb|AF164534.1|                         3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|7328988|gb|AF164532.1|                         3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|7328988|gb|AF164532.1|                         3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||*||||*||||||||||||||
+gi|335954250|gb|HM470138.1|                       3'-AGGTTATTACCGTCTTAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|335954250|gb|HM470138.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||*||||*||||||||||||||
+gi|335954248|gb|HM470136.1|                       3'-AGGTTATTACCGTCTTAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|335954248|gb|HM470136.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||*||||*||||||||||||||
+gi|335954244|gb|HM470134.1|                       3'-AGGTTATTACCGTCTTAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|335954244|gb|HM470134.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||*||||*||||||||||||||
+gi|335954242|gb|HM470133.1|                       3'-AGGTTATTACCGTCTTAAGTAAAAGTTACT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|335954242|gb|HM470133.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|335954240|gb|HM470132.1|                       3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335954240|gb|HM470132.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|335954236|gb|HM470130.1|                       3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|335954236|gb|HM470130.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|335954234|gb|HM470129.1|                       3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|335954234|gb|HM470129.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||*|||||||*||
+gi|335954230|gb|HM470127.1|                       3'-AGGTTATTACAGTCTCAAGGAAAAGTTGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335954230|gb|HM470127.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     ||||||||||||||||||||||||||**||
+gi|335954208|gb|HM470115.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTCGCT-5'
+1.8
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|335954208|gb|HM470115.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|335954202|gb|HM470111.1|                       3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335954202|gb|HM470111.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|335948816|gb|HM470110.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335948816|gb|HM470110.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|335948814|gb|HM470109.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335948814|gb|HM470109.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|335948812|gb|HM470108.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335948812|gb|HM470108.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|335948810|gb|HM470107.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|335948810|gb|HM470107.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725153|gb|HQ830488.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725153|gb|HQ830488.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725150|gb|HQ830487.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725150|gb|HQ830487.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725147|gb|HQ830486.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725147|gb|HQ830486.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725144|gb|HQ830485.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725144|gb|HQ830485.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725141|gb|HQ830484.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725141|gb|HQ830484.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725138|gb|HQ830483.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725138|gb|HQ830483.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725135|gb|HQ830482.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725135|gb|HQ830482.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725132|gb|HQ830481.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725132|gb|HQ830481.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725129|gb|HQ830480.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725129|gb|HQ830480.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|62737726|gb|AY993910.1|                        3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|62737726|gb|AY993910.1|                        3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                     |||||||||||||||||||||||||||*||
+gi|62737732|gb|AY993912.1|                        3'-AGGTTATTACAGTCTCAAGTAAAAGTTGCT-5'
+1.9
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|62737732|gb|AY993912.1|                        3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||**||
+gi|134039048|gb|EF467368.1|                       3'--------TACAGTCTCAAGTAAAAGTCGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|134039048|gb|EF467368.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||*|||*||
+gi|134039051|gb|EF467369.1|                       3'--------TACAGTCTCAAGTAAAGGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|134039051|gb|EF467369.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||*|||*||
+gi|134039054|gb|EF467370.1|                       3'--------TACAGTCTCAAGTAAAGGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|134039054|gb|EF467370.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|134039057|gb|EF467371.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|134039057|gb|EF467371.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|134039060|gb|EF467372.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|134039060|gb|EF467372.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725018|gb|HQ830443.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|334725018|gb|HQ830443.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*||||||||||
+gi|334725021|gb|HQ830444.1|                       3'--------TACAGTCTCAAGAAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725021|gb|HQ830444.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725030|gb|HQ830447.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725030|gb|HQ830447.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*||||||||||
+gi|334725033|gb|HQ830448.1|                       3'--------TACAGTCTCAAGAAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725033|gb|HQ830448.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725036|gb|HQ830449.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725036|gb|HQ830449.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725039|gb|HQ830450.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725039|gb|HQ830450.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725042|gb|HQ830451.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725042|gb|HQ830451.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725045|gb|HQ830452.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725045|gb|HQ830452.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725048|gb|HQ830453.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725048|gb|HQ830453.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725051|gb|HQ830454.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725051|gb|HQ830454.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725054|gb|HQ830455.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|334725054|gb|HQ830455.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725057|gb|HQ830456.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725057|gb|HQ830456.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725060|gb|HQ830457.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|334725060|gb|HQ830457.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725063|gb|HQ830458.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|334725063|gb|HQ830458.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*||||||||||
+gi|334725066|gb|HQ830459.1|                       3'--------TACAGTCTCAAGAAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||*|||||*||||||||
+gi|334725066|gb|HQ830459.1|                       3'-CGGGATTTGAGCCGAACAAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*||||||||||
+gi|334725069|gb|HQ830460.1|                       3'--------TACAGTCTCAAGAAAAAGTTACT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725069|gb|HQ830460.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725072|gb|HQ830461.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725072|gb|HQ830461.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725078|gb|HQ830463.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725078|gb|HQ830463.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725075|gb|HQ830462.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725075|gb|HQ830462.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725081|gb|HQ830464.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||*||||||||||||||
+gi|334725081|gb|HQ830464.1|                       3'-CGGGATTTGAGACGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725084|gb|HQ830465.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725084|gb|HQ830465.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||||||||||*||
+gi|334725087|gb|HQ830466.1|                       3'--------TACAGTCTCAAGTAAAAGTTGCT-5'
+1.43333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||*||||||||||||||||||||
+gi|334725087|gb|HQ830466.1|                       3'-CGGGACTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*|||||||*||
+gi|334725093|gb|HQ830468.1|                       3'--------TACAGTCTCAAGGAAAAGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*||*||||||||||||||||||||
+gi|334725093|gb|HQ830468.1|                       3'-CGAGACTTGAGTCGAACGAATTAACC-5'
+1.76923076923
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*|||||||*||
+gi|334725096|gb|HQ830469.1|                       3'--------TACAGTCTCAAGGAAAAGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725096|gb|HQ830469.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*|||||||*||
+gi|334725099|gb|HQ830470.1|                       3'--------TACAGTCTCAAGGAAAAGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725099|gb|HQ830470.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            ||||||||||||*|||||||*||
+gi|334725102|gb|HQ830471.1|                       3'--------TACAGTCTCAAGGAAAAGTTGCT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||*|||||||||||||||||||||||
+gi|334725102|gb|HQ830471.1|                       3'-CGAGATTTGAGTCGAACGAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|334725108|gb|HQ830473.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725108|gb|HQ830473.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|334725111|gb|HQ830474.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725111|gb|HQ830474.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|334725114|gb|HQ830475.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725114|gb|HQ830475.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|334725117|gb|HQ830476.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     |||||||||||||||||*||||||||
+gi|334725117|gb|HQ830476.1|                       3'-CGGGATTTGAGTCGAACAAATTAACC-5'
+1.88461538462
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||*||||*||||||||||||||
+gi|334725120|gb|HQ830477.1|                       3'--------TACCGTCTTAAGTAAAAGTTACT-5'
+1.33333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725120|gb|HQ830477.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725123|gb|HQ830478.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725123|gb|HQ830478.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+OROV_S_400_1_LEFT                                 5'-TCCAATAATGTCAGAGTTCATTTTCAATGA-3'
+                                                            |||||||||||||||||||||||
+gi|334725126|gb|HQ830479.1|                       3'--------TACAGTCTCAAGTAAAAGTTACT-5'
+1.53333333333
+OROV_S_400_1_RIGHT                                5'-GCCCTAAACTCAGCTTGCTTAATTGG-3'
+                                                     ||||||||||||||||||||||||||
+gi|334725126|gb|HQ830479.1|                       3'-CGGGATTTGAGTCGAACGAATTAACC-5'
+2.0
+
+
+Region 1, 37:397
+Product length 361
+Stepping left, position 260, limit 0
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||*|||||||||||||
+gi|765204911|gb|KP026181.1|                       3'-GTCAAGGTTAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|765204911|gb|KP026181.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|747156931|gb|KP052852.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|747156931|gb|KP052852.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140097|gb|AY704568.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140097|gb|AY704568.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140094|gb|AY704567.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140094|gb|AY704567.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140091|gb|AY704566.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140091|gb|AY704566.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140085|gb|AY704564.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140085|gb|AY704564.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140082|gb|AY704563.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140082|gb|AY704563.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140076|gb|AY704561.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|52140076|gb|AY704561.1|                        3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|52140070|gb|AY704559.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|52140070|gb|AY704559.1|                        3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|460111587|gb|KC759130.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|460111587|gb|KC759130.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|460111573|gb|KC759127.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|460111573|gb|KC759127.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||*|||||||||||||
+gi|460111558|gb|KC759124.1|                       3'-GTCAAGGTTAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|460111558|gb|KC759124.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|66862226|gb|AY117135.3|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|66862226|gb|AY117135.3|                        3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-C-AGTTCCAGTCG--AAT--CCAGTGC-3'
+                                                     | |*||*||*|*|  |||  |||*|*|
+gi|923093009|gb|KP795104.1|                       3'-GTTAAACGTTACCAATTATTGGTAAAG-5'
+0.666666666667
+OROV_S_400_2_RIGHT                                5'-TCTC-TTGCTGCTGGGGAGAATC-3'
+                                                     |*|| ||||  |*|*|||***||
+gi|923093009|gb|KP795104.1|                       3'-ATAGCAACG--GCCTCCTGAAAG-5'
+0.739130434783
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923093003|gb|KP795098.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923093003|gb|KP795098.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923093000|gb|KP795095.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923093000|gb|KP795095.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923092997|gb|KP795092.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923092997|gb|KP795092.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923092994|gb|KP795089.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923092994|gb|KP795089.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923092991|gb|KP795086.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923092991|gb|KP795086.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|923092988|gb|KP795083.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923092988|gb|KP795083.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|923092982|gb|KP795077.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|923092982|gb|KP795077.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|923092979|gb|KP795074.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|923092979|gb|KP795074.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||*|||||||||||||
+gi|7328985|gb|AF164531.1|                         3'-GTCAAGGTTAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7328985|gb|AF164531.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329066|gb|AF164558.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|7329066|gb|AF164558.1|                         3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329060|gb|AF164556.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|7329060|gb|AF164556.1|                         3'-AGAGAACGACGACCTCTCTTTG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329057|gb|AF164555.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|7329057|gb|AF164555.1|                         3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329054|gb|AF164554.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329054|gb|AF164554.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329051|gb|AF164553.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329051|gb|AF164553.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329048|gb|AF164552.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329048|gb|AF164552.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329045|gb|AF164551.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329045|gb|AF164551.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329042|gb|AF164550.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329042|gb|AF164550.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329039|gb|AF164549.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329039|gb|AF164549.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329036|gb|AF164548.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329036|gb|AF164548.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329033|gb|AF164547.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329033|gb|AF164547.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329030|gb|AF164546.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329030|gb|AF164546.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329027|gb|AF164545.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329027|gb|AF164545.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329024|gb|AF164544.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     || |||||||||||||||||||
+gi|7329024|gb|AF164544.1|                         3'-AG-GAACGACGACCCCTCTTAG-5'
+1.81818181818
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329021|gb|AF164543.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329021|gb|AF164543.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|7329018|gb|AF164542.1|                         3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329018|gb|AF164542.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329015|gb|AF164541.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329015|gb|AF164541.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329009|gb|AF164539.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     |*||||||||||||||||||||
+gi|7329009|gb|AF164539.1|                         3'-AAAGAACGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329006|gb|AF164538.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329006|gb|AF164538.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329003|gb|AF164537.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329003|gb|AF164537.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7329000|gb|AF164536.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7329000|gb|AF164536.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7328997|gb|AF164535.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7328997|gb|AF164535.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7328994|gb|AF164534.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7328994|gb|AF164534.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|7328988|gb|AF164532.1|                         3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|7328988|gb|AF164532.1|                         3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|335954250|gb|HM470138.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954250|gb|HM470138.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|335954248|gb|HM470136.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954248|gb|HM470136.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|335954244|gb|HM470134.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954244|gb|HM470134.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|335954242|gb|HM470133.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954242|gb|HM470133.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335954240|gb|HM470132.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|335954240|gb|HM470132.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335954236|gb|HM470130.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|335954236|gb|HM470130.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335954234|gb|HM470129.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|335954234|gb|HM470129.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335954230|gb|HM470127.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|335954230|gb|HM470127.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335954208|gb|HM470115.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954208|gb|HM470115.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||*|||||||||||||
+gi|335954202|gb|HM470111.1|                       3'-GTCAAGGTTAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335954202|gb|HM470111.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335948816|gb|HM470110.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335948816|gb|HM470110.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335948814|gb|HM470109.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335948814|gb|HM470109.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|335948812|gb|HM470108.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335948812|gb|HM470108.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     |||||||||||*||||||||||
+gi|335948810|gb|HM470107.1|                       3'-GTCAAGGTCAGGTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|335948810|gb|HM470107.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725153|gb|HQ830488.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725153|gb|HQ830488.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725150|gb|HQ830487.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725150|gb|HQ830487.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725147|gb|HQ830486.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725147|gb|HQ830486.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725144|gb|HQ830485.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725144|gb|HQ830485.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725141|gb|HQ830484.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725141|gb|HQ830484.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725138|gb|HQ830483.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725138|gb|HQ830483.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725135|gb|HQ830482.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725135|gb|HQ830482.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725132|gb|HQ830481.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725132|gb|HQ830481.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725129|gb|HQ830480.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725129|gb|HQ830480.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|62737726|gb|AY993910.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|62737726|gb|AY993910.1|                        3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|62737732|gb|AY993912.1|                        3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|62737732|gb|AY993912.1|                        3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|134039048|gb|EF467368.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|134039048|gb|EF467368.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|134039051|gb|EF467369.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|134039051|gb|EF467369.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|134039054|gb|EF467370.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|134039054|gb|EF467370.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|134039057|gb|EF467371.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|134039057|gb|EF467371.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|134039060|gb|EF467372.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|134039060|gb|EF467372.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725018|gb|HQ830443.1|                       3'-GTCAAGGTTAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725018|gb|HQ830443.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725021|gb|HQ830444.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725021|gb|HQ830444.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     |||||||||||*||||||||*|
+gi|334725030|gb|HQ830447.1|                       3'-GTCAAGGTCAGGTTAGGTCAGG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725030|gb|HQ830447.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|334725033|gb|HQ830448.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725033|gb|HQ830448.1|                       3'-AGGGAACGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725036|gb|HQ830449.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725036|gb|HQ830449.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725039|gb|HQ830450.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725039|gb|HQ830450.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725042|gb|HQ830451.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725042|gb|HQ830451.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725045|gb|HQ830452.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725045|gb|HQ830452.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725048|gb|HQ830453.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725048|gb|HQ830453.1|                       3'-AGAGAACGACGACCCCTCTTCG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725051|gb|HQ830454.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725051|gb|HQ830454.1|                       3'-AGAGAACGACGACCCCTCTTCG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725054|gb|HQ830455.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|334725054|gb|HQ830455.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725057|gb|HQ830456.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725057|gb|HQ830456.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725060|gb|HQ830457.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|334725060|gb|HQ830457.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725063|gb|HQ830458.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|334725063|gb|HQ830458.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725066|gb|HQ830459.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725066|gb|HQ830459.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725069|gb|HQ830460.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725069|gb|HQ830460.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725072|gb|HQ830461.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725072|gb|HQ830461.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725078|gb|HQ830463.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725078|gb|HQ830463.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725075|gb|HQ830462.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||||
+gi|334725075|gb|HQ830462.1|                       3'-AGAGAACGACGACCGCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725081|gb|HQ830464.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725081|gb|HQ830464.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||*|
+gi|334725084|gb|HQ830465.1|                       3'-GTCAAGGTCAGCTTAGGTCAGG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725084|gb|HQ830465.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725087|gb|HQ830466.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||*|||||*|
+gi|334725087|gb|HQ830466.1|                       3'-AGAGAACGACGACCTCTCTTGG-5'
+1.72727272727
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725093|gb|HQ830468.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|334725093|gb|HQ830468.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725096|gb|HQ830469.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|334725096|gb|HQ830469.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725099|gb|HQ830470.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|334725099|gb|HQ830470.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725102|gb|HQ830471.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||*|||||||||||||||
+gi|334725102|gb|HQ830471.1|                       3'-AGAGAAGGACGACCCCTCTTAG-5'
+1.86363636364
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|334725108|gb|HQ830473.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725108|gb|HQ830473.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|334725111|gb|HQ830474.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725111|gb|HQ830474.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725114|gb|HQ830475.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725114|gb|HQ830475.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*|||||||||||||||||||
+gi|334725117|gb|HQ830476.1|                       3'-GTTAAGGTCAGCTTAGGTCACG-5'
+1.86363636364
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725117|gb|HQ830476.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||*||||||||*||||||||||
+gi|334725120|gb|HQ830477.1|                       3'-GTTAAGGTCAGGTTAGGTCACG-5'
+1.72727272727
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725120|gb|HQ830477.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725123|gb|HQ830478.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||||||||||||||||
+gi|334725123|gb|HQ830478.1|                       3'-AGAGAACGACGACCCCTCTTAG-5'
+2.0
+
+OROV_S_400_2_LEFT                                 5'-CAGTTCCAGTCGAATCCAGTGC-3'
+                                                     ||||||||||||||||||||||
+gi|334725126|gb|HQ830479.1|                       3'-GTCAAGGTCAGCTTAGGTCACG-5'
+2.0
+OROV_S_400_2_RIGHT                                5'-TCTCTTGCTGCTGGGGAGAATC-3'
+                                                     ||||||||*|||||||||||||
+gi|334725126|gb|HQ830479.1|                       3'-AGAGAACGCCGACCCCTCTTAG-5'
+1.86363636364
+
+
+Region 2, 278:709
+Product length 432, trimmed overlap 70
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|766968468|gb|KP691623.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|765204911|gb|KP026181.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|765204911|gb|KP026181.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|747156931|gb|KP052852.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|747156931|gb|KP052852.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140097|gb|AY704568.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140094|gb|AY704567.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140091|gb|AY704566.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140085|gb|AY704564.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140082|gb|AY704563.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140076|gb|AY704561.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|52140070|gb|AY704559.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|460111587|gb|KC759130.1|                       3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|460111573|gb|KC759127.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|460111558|gb|KC759124.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|66862226|gb|AY117135.3|                        3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATG--GATG-T-CAACTTTA--TGAAG-3'
+                                                     *||*|||  |*|| | ||| |*||  ||**|
+gi|923093009|gb|KP795104.1|                       3'-ACCTTACTACCACTACGTT-ACATGGACCCC-5'
+0.58064516129
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||   | ||||||     *|||
+gi|923093009|gb|KP795104.1|                       3'-AC---A-CGAAAG-----CGTG-5'
+0.5
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923093003|gb|KP795098.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|923093003|gb|KP795098.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923093000|gb|KP795095.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||   | ||||||*|  ||*  
+gi|923093000|gb|KP795095.1|                       3'-AC---A-CGAAAGCG--TGA---5'
+0.590909090909
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923092997|gb|KP795092.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|923092997|gb|KP795092.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923092994|gb|KP795089.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|923092994|gb|KP795089.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923092991|gb|KP795086.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||||||||||||||||||||||
+gi|923092991|gb|KP795086.1|                       3'-ACTGTATCGAAAGGGGTTGGTG-5'
+2.0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|923092988|gb|KP795083.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTC-CCCAACCAC-3'
+                                                                 | ||||||| |
+gi|923092988|gb|KP795083.1|                       3'-------------GTGGGTTGG-G-5'
+0.608695652174
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|923092982|gb|KP795077.1|                       3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|923092979|gb|KP795074.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+OROV_S_400_3_RIGHT                                5'-TGACATAGCTTTCCCCAACCAC-3'
+                                                     ||   | |||||          
+gi|923092979|gb|KP795074.1|                       3'-AC---A-CGAAA-----------5'
+0.454545454545
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7328985|gb|AF164531.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|7329066|gb|AF164558.1|                         3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|7329060|gb|AF164556.1|                         3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|7329057|gb|AF164555.1|                         3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329054|gb|AF164554.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329051|gb|AF164553.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329048|gb|AF164552.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329045|gb|AF164551.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329042|gb|AF164550.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329039|gb|AF164549.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329036|gb|AF164548.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329033|gb|AF164547.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329030|gb|AF164546.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329027|gb|AF164545.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329024|gb|AF164544.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|7329021|gb|AF164543.1|                         3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||*||||||||*
+gi|7329018|gb|AF164542.1|                         3'-GCCGTACCTACAGTTAAAATACTTT-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329015|gb|AF164541.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *|||||||||||||||||||||||*
+gi|7329009|gb|AF164539.1|                         3'-ACCGTACCTACAGTTGAAATACTTT-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329006|gb|AF164538.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329003|gb|AF164537.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7329000|gb|AF164536.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7328997|gb|AF164535.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7328994|gb|AF164534.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|7328988|gb|AF164532.1|                         3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|335954250|gb|HM470138.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|335954248|gb|HM470136.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|335954244|gb|HM470134.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|335954242|gb|HM470133.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954240|gb|HM470132.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954236|gb|HM470130.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954234|gb|HM470129.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954230|gb|HM470127.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954208|gb|HM470115.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335954202|gb|HM470111.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335948816|gb|HM470110.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335948814|gb|HM470109.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|335948812|gb|HM470108.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *|||||||||||*||||||||||||
+gi|335948810|gb|HM470107.1|                       3'-ACCGTACCTACACTTGAAATACTTC-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725153|gb|HQ830488.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725150|gb|HQ830487.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725147|gb|HQ830486.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725144|gb|HQ830485.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725141|gb|HQ830484.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725138|gb|HQ830483.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725135|gb|HQ830482.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725132|gb|HQ830481.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725129|gb|HQ830480.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|62737726|gb|AY993910.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|62737732|gb|AY993912.1|                        3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|134039048|gb|EF467368.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|134039051|gb|EF467369.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|134039054|gb|EF467370.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|134039057|gb|EF467371.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||*|||||||||
+gi|134039060|gb|EF467372.1|                       3'-GCCGTACCTACAGTTAAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725018|gb|HQ830443.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     ||||||||||||*||||||||||||
+gi|334725021|gb|HQ830444.1|                       3'-GCCGTACCTACACTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725030|gb|HQ830447.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     ||||||||||||*||||||||||||
+gi|334725033|gb|HQ830448.1|                       3'-GCCGTACCTACACTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725036|gb|HQ830449.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725039|gb|HQ830450.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725042|gb|HQ830451.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725045|gb|HQ830452.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|334725048|gb|HQ830453.1|                       3'-GCCTTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|334725051|gb|HQ830454.1|                       3'-GCCTTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*||||||||*||||||||||||
+gi|334725054|gb|HQ830455.1|                       3'-GCCATACCTACACTTGAAATACTTC-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725057|gb|HQ830456.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|334725060|gb|HQ830457.1|                       3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*||||||||||||||||||||*
+gi|334725063|gb|HQ830458.1|                       3'-GCCATACCTACAGTTGAAATACTTT-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725066|gb|HQ830459.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725069|gb|HQ830460.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725072|gb|HQ830461.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *|||||||||||*||||||||||||
+gi|334725078|gb|HQ830463.1|                       3'-ACCGTACCTACAATTGAAATACTTC-5'
+1.76
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725075|gb|HQ830462.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725081|gb|HQ830464.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725084|gb|HQ830465.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||*|||||||||||||||||||||
+gi|334725087|gb|HQ830466.1|                       3'-GCCATACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725093|gb|HQ830468.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725096|gb|HQ830469.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725099|gb|HQ830470.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     *||||||||||||||||||||||||
+gi|334725102|gb|HQ830471.1|                       3'-ACCGTACCTACAGTTGAAATACTTC-5'
+1.88
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725108|gb|HQ830473.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725111|gb|HQ830474.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725114|gb|HQ830475.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725117|gb|HQ830476.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725120|gb|HQ830477.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725123|gb|HQ830478.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+OROV_S_400_3_LEFT                                 5'-CGGCATGGATGTCAACTTTATGAAG-3'
+                                                     |||||||||||||||||||||||||
+gi|334725126|gb|HQ830479.1|                       3'-GCCGTACCTACAGTTGAAATACTTC-5'
+2.0
+None found
+0
+
+
+Region 3, 547:908
+Product length 362, trimmed overlap 114
+['gi|766968468|gb|KP691623.1|', 37, 67, 'OROV_S_400_1_LEFT', '1']
+['gi|766968468|gb|KP691623.1|', 371, 397, 'OROV_S_400_1_RIGHT', '1']
+['gi|766968468|gb|KP691623.1|', 278, 300, 'OROV_S_400_2_LEFT', '2']
+['gi|766968468|gb|KP691623.1|', 687, 709, 'OROV_S_400_2_RIGHT', '2']
+['gi|766968468|gb|KP691623.1|', 547, 572, 'OROV_S_400_3_LEFT', '1']
+['gi|766968468|gb|KP691623.1|', 886, 908, 'OROV_S_400_3_RIGHT', '1']
