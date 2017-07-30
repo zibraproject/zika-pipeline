@@ -8,7 +8,7 @@ RUN apt-get install -y git build-essential wget zlib1g-dev vim libncurses5-dev
 
 # python and python dependencies
 RUN apt-get install -y python python-pip
-RUN pip install pysam pyvcf biopython
+RUN pip install pysam pyvcf biopython clint
 
 # Add Python3 for snakemake and plot_coverage.py for illumina run
 RUN apt-get install -y python3 python3-pip
