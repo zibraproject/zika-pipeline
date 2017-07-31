@@ -58,7 +58,7 @@ def main():
 	parser_demultiplex.add_argument('fasta', metavar='fasta', help='Undemultiplexed FASTA file.')
 	parser_demultiplex.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_demultiplex.add_argument('--prefix', help='Prefix for demultiplexed files')
-	parser_demultiplex.add_argument('--no-remove-directory', metavar='no_remove_directory', action='store_true')
+	parser_demultiplex.add_argument('--no-remove-directory', dest='no_remove_directory', action='store_true')
 	parser_demultiplex.set_defaults(func=run_subtool)
 
 	# minion
