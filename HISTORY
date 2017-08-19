@@ -1,3 +1,6 @@
+v0.11-dev:
+ * Add stringent pipeline
+
 v0.11 (25th July 2017):
  * Revert back to Ryan Wick's porechop repo as --untrimmed now implemented
  * New script: align_trim_fasta.py and reconstitute.py as basis for more
