@@ -60,17 +60,24 @@
 <span id="quick-start"></span><h2>Quick start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="minion-pipeline">
 <span id="minion-pipeline"></span><h3>MinION pipeline<a class="headerlink" href="#minion-pipeline" title="Permalink to this headline">¶</a></h3>
-<p>docker pull zibra/zibra:latest
-docker run -t -i zibra/zibra:latest /bin/bash</p>
+<p>Install the Docker container:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>  <span class="n">docker</span> <span class="n">pull</span> <span class="n">zibra</span><span class="o">/</span><span class="n">zibra</span><span class="p">:</span><span class="n">latest</span>
+  <span class="n">docker</span> <span class="n">run</span> <span class="o">-</span><span class="n">t</span> <span class="o">-</span><span class="n">i</span> <span class="n">zibra</span><span class="o">/</span><span class="n">zibra</span><span class="p">:</span><span class="n">latest</span> <span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">bash</span>
+</pre></div>
 </div>
+<p>Download and run on the Zika test sample:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>  <span class="n">mkdir</span> <span class="n">whoref</span>
+  <span class="n">cd</span> <span class="n">whoref</span>
+  <span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">s3</span><span class="o">.</span><span class="n">climb</span><span class="o">.</span><span class="n">ac</span><span class="o">.</span><span class="n">uk</span><span class="o">/</span><span class="n">nanopore</span><span class="o">/</span><span class="n">Zika_Control_Material_R9</span><span class="o">.</span><span class="mi">4</span><span class="n">_2D</span><span class="o">.</span><span class="n">tar</span>
+  <span class="n">tar</span> <span class="n">xvf</span> <span class="n">Zika_Control_Material_R9</span><span class="o">.</span><span class="mi">4</span><span class="n">_2D</span><span class="o">.</span><span class="n">tar</span>
+  <span class="n">fast5_to_consensus</span><span class="o">.</span><span class="n">sh</span> <span class="n">ZikaAsian</span> <span class="n">WHO</span> <span class="mi">20161118</span><span class="n">_Zika</span><span class="o">/</span><span class="n">downloads</span><span class="o">/</span><span class="k">pass</span><span class="o">/</span><span class="n">NB08</span>
+</pre></div>
 </div>
-<div class="section" id="run-on-the-test-sample">
-<span id="run-on-the-test-sample"></span><h2>run on the test sample<a class="headerlink" href="#run-on-the-test-sample" title="Permalink to this headline">¶</a></h2>
-<p>mkdir whoref
-cd whoref
-wget https://s3.climb.ac.uk/nanopore/Zika_Control_Material_R9.4_2D.tar
-tar xvf Zika_Control_Material_R9.4_2D.tar
-fast5_to_consensus.sh ZikaAsian WHO 20161118_Zika/downloads/pass/NB08</p>
+<p>A number of files will be produced.</p>
+<p>###&nbsp;Analysing diverse viral lineages</p>
+<p>We designed this protocol in order to monitor evolutionary changes over short time-scales for example in outbreaks and epidemics that have been through a recent bottleneck. In practice it means this protocol has been mainly tested on viruses where sequeunces have &lt;1% sequence divergence from a reference. The pipeline relies on detecting differences from the reference genome, that in turn depends on the nanopolish software. Nanopolish works by testing all possible combinations of variants to determine which combination is best explained by the signal-level data produced by the nanopore device. Therefore, computational complexity rapidly increases as the sequence diverges (2^n, where n is the number of variants to test in a window).</p>
+<p>By default the Zibra pipeline will test a maximum of 1,000,000 potential haplotypes in a window, which roughly equates to 2^20 mutations. This can be increased using the --max-haplotypes parameter to zibra.py, but at the expense of running time.</p>
+</div>
 <div class="section" id="local-offline-basecalling">
 <span id="local-offline-basecalling"></span><h3>Local offline basecalling<a class="headerlink" href="#local-offline-basecalling" title="Permalink to this headline">¶</a></h3>
 <p>Currently we are recommending Oxford Nanopore’s Albacore for local base calling. If basecalling offline on Windows or Mac, we recommend this is done on the native operating system rather than in the Docker container, for reasons of speed.</p>
@@ -80,10 +87,10 @@ fast5_to_consensus.sh ZikaAsian WHO 20161118_Zika/downloads/pass/NB08</p>
 </div>
 <div class="section" id="demultiplexing">
 <span id="demultiplexing"></span><h3>Demultiplexing<a class="headerlink" href="#demultiplexing" title="Permalink to this headline">¶</a></h3>
-<p>Currently we prefer Ryan Wick’s porechop, but a special version of is bundled with the Docker file used to make it compatible with nanopolish.</p>
-<p>To demultiplex from /data/run, do something like (for reads stored in /data/run):</p>
-<p>poretools fasta /data/run &gt; run.fasta
-porechop --untrimmed -i run.fasta -b porechop-run --barcode_threshold 75 --threads 16 --check_reads 1000 --barcode_diff 2 —require_two_barcodes</p>
+<p>Demultiplexing (splitting reads by their barcodes) is currently rather convoluted in the current Zibra pipeline. Initially, reads are mapped against a reference genome and only mapped reads are considered further. These reads are then trimmed by considering their alignment coordinates and relating that to the known start and end coordinates of each amplicon (as determined by the specified Primal Scheme BED file), with 40 base flanking sequences retained.</p>
+<p><img alt="Trimming" src="_images/trimming.png" /></p>
+<p>Next, Porechop is run: the presence of double barcodes are enforced, with a minimum barcode identity of 80%. Because nanopolish cannot read trimmed files, the results of Porechop are used to reconstitute the original FASTA files but this time sorted into bins, and then the process is repeated to call consensus sequences.</p>
+<p>The reason for this complicated process is to reduce any cross-barcode contamination caused through the presence of in silico chimeras, e.g. when the start or end of a read is erroneously detected. This is important for accurate determination of contamination in the negative control.</p>
 </div>
 <div class="section" id="mounting-a-local-directory">
 <span id="mounting-a-local-directory"></span><h3>Mounting a local directory<a class="headerlink" href="#mounting-a-local-directory" title="Permalink to this headline">¶</a></h3>
@@ -131,9 +138,6 @@ illumina_pipeline.sh SRR5122847 SRR5122847_1.fastq.gz SRR5122847_2.fastq.gz Zika
 <li><a class="reference internal" href="#installing-docker">Installing Docker</a></li>
 <li><a class="reference internal" href="#quick-start">Quick start</a><ul>
 <li><a class="reference internal" href="#minion-pipeline">MinION pipeline</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#run-on-the-test-sample">run on the test sample</a><ul>
 <li><a class="reference internal" href="#local-offline-basecalling">Local offline basecalling</a></li>
 <li><a class="reference internal" href="#demultiplexing">Demultiplexing</a></li>
 <li><a class="reference internal" href="#mounting-a-local-directory">Mounting a local directory</a></li>
