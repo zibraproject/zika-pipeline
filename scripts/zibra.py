@@ -66,6 +66,7 @@ def main():
 	parser_minion.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_minion.add_argument('--scheme-directory', metavar='scheme_directory', default='/zibra/zika-pipeline/schemes', help='Default scheme directory')
 	parser_minion.add_argument('--max-haplotypes', type=int, default=1000000, metavar='max_haplotypes', help='max-haplotypes value for nanopolish')
+	parser_minion.add_argument('--read-file', metavar='read_file', help='Use alternative FASTA/FASTQ file to <sample>.fasta')
 	parser_minion.set_defaults(func=run_subtool)
 
 	# import

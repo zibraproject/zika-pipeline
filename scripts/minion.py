@@ -20,6 +20,11 @@ def run(parser, args):
 	ref = "%s/%s/V1/%s.reference.fasta" % (args.scheme_directory, args.scheme, args.scheme)
 	bed = "%s/%s/V1/%s.scheme.bed" % (args.scheme_directory, args.scheme, args.scheme)
 
+	if args.read_file:
+		read_file = args.read_file
+	else:
+		read_file = "%s.fasta" % (args.sample)
+
 	if not os.path.exists(ref):
 		print colored.red('Scheme reference file not found: ') + ref
 		raise SystemExit
@@ -33,7 +38,7 @@ def run(parser, args):
 
 	# 3) index the ref & align with bwa"
 	cmds.append("bwa index %s" % (ref,))
-	cmds.append("bwa mem -t %s -x ont2d %s %s.fasta | samtools view -bS - | samtools sort -o %s.sorted.bam -" % (args.threads, ref, args.sample, args.sample))
+	cmds.append("bwa mem -t %s -x ont2d %s %s | samtools view -bS - | samtools sort -o %s.sorted.bam -" % (args.threads, ref, read_file, args.sample))
 	cmds.append("samtools index %s.sorted.bam" % (args.sample,))
 
 	# 4) trim the alignments to the primer start sites and normalise the coverage to save time
@@ -45,8 +50,8 @@ def run(parser, args):
 	#covplot.R $sample.alignreport.txt
 
 	# 6) do variant calling using the raw signal alignment
-	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s.fasta -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.max_haplotypes, args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
-	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s.fasta -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.max_haplotypes, args.threads, args.sample, args.sample, args.sample, ref, nanopolish_header))
+	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.max_haplotypes, args.threads, read_file, args.sample, args.sample, ref, nanopolish_header))
+	cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.max_haplotypes, args.threads, read_file, args.sample, args.sample, ref, nanopolish_header))
 
 	#python nanopore-scripts/expand-cigar.py --bam "$sample".primertrimmed.sorted.bam --fasta $ref | python nanopore-scripts/count-errors.py /dev/stdin > "$sample".errors.txt
 
