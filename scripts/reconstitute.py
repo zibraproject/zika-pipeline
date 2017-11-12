@@ -11,7 +11,12 @@ from Bio import SeqIO
 import gzip
 
 def go(args):
-	ids = [rec.id for rec in SeqIO.parse(gzip.open(args.trimmed), "fasta")]
+	if args.trimmed.endswith('.gz'):
+		fh = gzip.open(args.trimmed)
+	else:
+		fh = open(args.trimmed)
+
+	ids = [rec.id for rec in SeqIO.parse(fh, "fasta")]
 	SeqIO.write((seq for seq in SeqIO.parse(args.fasta, "fasta") if seq.id in ids), sys.stdout, "fasta")
 
 parser = argparse.ArgumentParser(description='Trim alignments from an amplicon scheme.')

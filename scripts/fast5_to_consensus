@@ -7,5 +7,5 @@ schema=$1
 sample=$2
 directory=$3
 
-zibra.py extract $directory "ONT Albacore Sequencing Software" > $sample.fasta
+zibra.py extract --basecaller "ONT Albacore Sequencing Software" $directory > $sample.fasta
 zibra.py minion $schema $sample

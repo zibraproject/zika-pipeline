@@ -43,7 +43,8 @@ def main():
                                           help='Create an empty poredb database')
 	parser_extract.add_argument('directory', metavar='directory',
                              help='The name of the database.')
-	parser_extract.add_argument('basecaller', metavar='basecaller',
+	parser_extract.add_argument('--basecaller', metavar='basecaller',
+                             default='ONT Albacore Sequencing Software',
                              help='The name of the basecaller')
 	parser_extract.set_defaults(func=run_subtool)
 
@@ -57,16 +58,19 @@ def main():
 	parser_demultiplex.add_argument('fasta', metavar='fasta', help='Undemultiplexed FASTA file.')
 	parser_demultiplex.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_demultiplex.add_argument('--prefix', help='Prefix for demultiplexed files')
+	parser_demultiplex.add_argument('--no-remove-directory', dest='no_remove_directory', action='store_true')
 	parser_demultiplex.set_defaults(func=run_subtool)
 
 	# minion
 	parser_minion = subparsers.add_parser('minion', help='Run demultiplex')
 	parser_minion.add_argument('scheme', metavar='scheme', help='The name of the scheme.')
 	parser_minion.add_argument('sample', metavar='sample', help='The name of the sample.')
+        parser_minion.add_argument('--normalise', dest='normalise', type=int, default=100, help='Normalise down to moderate coverage to save runtime.')
 	parser_minion.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_minion.add_argument('--scheme-directory', metavar='scheme_directory', default='/zibra/zika-pipeline/schemes', help='Default scheme directory')
 	parser_minion.add_argument('--max-haplotypes', type=int, default=1000000, metavar='max_haplotypes', help='max-haplotypes value for nanopolish')
 	parser_minion.add_argument('--read-file', metavar='read_file', help='Use alternative FASTA/FASTQ file to <sample>.fasta')
+	parser_minion.add_argument('--skip-nanopolish', action='store_true')
 	parser_minion.set_defaults(func=run_subtool)
 
 	# import
