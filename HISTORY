@@ -1,3 +1,6 @@
+v0.13:
+ * Preliminary conda support
+
 v0.12: 
  * Update to nanopolish v0.8.4 for Albacore 2.0+ support:
      run nanopolish -d /path/to/fast5 input.fasta before zibra.py minion
