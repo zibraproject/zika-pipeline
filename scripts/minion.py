@@ -55,8 +55,13 @@ def run(parser, args):
 
 	# 6) do variant calling using the raw signal alignment
 	if not args.skip_nanopolish:
-		cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.max_haplotypes, args.threads, read_file, args.sample, args.sample, ref, nanopolish_header))
-		cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.max_haplotypes, args.threads, read_file, args.sample, args.sample, ref, nanopolish_header))
+		if args.nanopolish_read_file:
+			indexed_nanopolish_file = args.nanopolish_read_file
+		else:
+			indexed_nanopolish_file = read_file
+
+		cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.vcf -b %s.trimmed.sorted.bam -g %s -w \"%s\"  --snps --ploidy 1" % (args.max_haplotypes, args.threads, indexed_nanopolish_file, args.sample, args.sample, ref, nanopolish_header))
+		cmds.append("nanopolish variants -x %s --progress -t %s --reads %s -o %s.primertrimmed.vcf -b %s.primertrimmed.sorted.bam -g %s -w \"%s\" --snps --ploidy 1" % (args.max_haplotypes, args.threads, indexed_nanopolish_file, args.sample, args.sample, ref, nanopolish_header))
 
 		#python nanopore-scripts/expand-cigar.py --bam "$sample".primertrimmed.sorted.bam --fasta $ref | python nanopore-scripts/count-errors.py /dev/stdin > "$sample".errors.txt
 

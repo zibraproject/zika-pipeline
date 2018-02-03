@@ -4,7 +4,6 @@
 #Thanks to Aaron Quinlan for the argparse implementation from poretools.
 
 import sys
-import md5
 import hashlib
 import re
 import argparse
@@ -20,6 +19,8 @@ def run_subtool(parser, args):
 		import demultiplex as submodule
 	if args.command == 'minion':
 		import minion as submodule
+	if args.command == 'gather':
+		import gather as submodule
 
 	# run the chosen submodule.
 	submodule.run(parser, args)
@@ -65,13 +66,19 @@ def main():
 	parser_minion = subparsers.add_parser('minion', help='Run demultiplex')
 	parser_minion.add_argument('scheme', metavar='scheme', help='The name of the scheme.')
 	parser_minion.add_argument('sample', metavar='sample', help='The name of the sample.')
-        parser_minion.add_argument('--normalise', dest='normalise', type=int, default=100, help='Normalise down to moderate coverage to save runtime.')
+	parser_minion.add_argument('--normalise', dest='normalise', type=int, default=100, help='Normalise down to moderate coverage to save runtime.')
 	parser_minion.add_argument('--threads', type=int, default=8, help='Number of threads')
 	parser_minion.add_argument('--scheme-directory', metavar='scheme_directory', default='/zibra/zika-pipeline/schemes', help='Default scheme directory')
 	parser_minion.add_argument('--max-haplotypes', type=int, default=1000000, metavar='max_haplotypes', help='max-haplotypes value for nanopolish')
 	parser_minion.add_argument('--read-file', metavar='read_file', help='Use alternative FASTA/FASTQ file to <sample>.fasta')
+	parser_minion.add_argument('--nanopolish-read-file', metavar='nanopolish_read_file', help='Use alternative read file (previously indexed)')
 	parser_minion.add_argument('--skip-nanopolish', action='store_true')
 	parser_minion.set_defaults(func=run_subtool)
+
+	# gather
+	parser_gather = subparsers.add_parser('gather', help='Gather up demultiplexed files')
+	parser_gather.add_argument('directory', metavar='directory', help='Albacore results directory.')
+	parser_gather.set_defaults(func=run_subtool)
 
 	# import
 	"""parser_import = subparsers.add_parser('import',
@@ -86,8 +93,8 @@ def main():
 
 	args = parser.parse_args()
 
-	if args.quiet:
-		logger.setLevel(logging.ERROR)
+	#if args.quiet:
+	#	logger.setLevel(logging.ERROR)
 
 	args.func(parser, args)
 
