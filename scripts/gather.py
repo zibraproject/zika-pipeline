@@ -31,6 +31,11 @@ def run(parser, args):
 			total = 0	
 			for f in fastq:
 				for rec in SeqIO.parse(open(f), "fastq"):
+					if args.max_length and len(rec) > args.max_length:
+						continue
+					if args.min_length and len(rec) < args.min_length:
+						continue
+
 					total += 1
 					if rec.id not in dups:
 						SeqIO.write([rec], outfh, "fastq")
